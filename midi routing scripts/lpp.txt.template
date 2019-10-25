@@ -1,0 +1,397 @@
+# (c) Copyright 2017 Sean Connelly (@voidqk) http://sean.cm
+# MIT License
+# Project Home: https://github.com/voidqk/midimap
+
+
+# -------------------------------
+# Novation Launchpad 8x8 aliases
+# -------------------------------
+Alias @L1 NoteBN2
+Alias @L2 NoteCN1
+Alias @L3 NoteDbN1
+Alias @L4 NoteDN1
+Alias @L5 NoteEbN1
+Alias @L6 NoteEN1
+Alias @L7 NoteFN1
+Alias @L8 NoteGbN1
+Alias @L9 NoteAN1
+Alias @L10 NoteBbN1
+Alias @L11 NoteBN1
+Alias @L12 NoteC0
+Alias @L13 NoteDb0
+Alias @L14 NoteD0
+Alias @L15 NoteEb0
+Alias @L16 NoteE0
+Alias @L17 NoteG0
+Alias @L18 NoteAb0
+Alias @L19 NoteA0
+Alias @L20 NoteBb0
+Alias @L21 NoteB0
+Alias @L22 NoteC1
+Alias @L23 NoteDb1
+Alias @L24 NoteD1
+Alias @L25 NoteF1
+Alias @L26 NoteGb1
+Alias @L27 NoteG1
+Alias @L28 NoteAb1
+Alias @L29 NoteA1
+Alias @L30 NoteBb1
+Alias @L31 NoteB1
+Alias @L32 NoteC2
+Alias @L33 NoteEb2
+Alias @L34 NoteE2
+Alias @L35 NoteF2
+Alias @L36 NoteGb2
+Alias @L37 NoteG2
+Alias @L38 NoteAb2
+Alias @L39 NoteA2
+Alias @L40 NoteBb2
+Alias @L41 NoteDb3
+Alias @L42 NoteD3
+Alias @L43 NoteEb3
+Alias @L44 NoteE3
+Alias @L45 NoteF3
+Alias @L46 NoteGb3
+Alias @L47 NoteG3
+Alias @L48 NoteAb3
+Alias @L49 NoteB3
+Alias @L50 NoteC4
+Alias @L51 NoteDb4
+Alias @L52 NoteD4
+Alias @L53 NoteEb4
+Alias @L54 NoteE4
+Alias @L55 NoteF4
+Alias @L56 NoteGb4
+Alias @L57 NoteA4
+Alias @L58 NoteBb4
+Alias @L59 NoteB4
+Alias @L60 NoteC5
+Alias @L61 NoteDb5
+Alias @L62 NoteD5
+Alias @L63 NoteEb5
+Alias @L64 NoteE5
+
+# -------------------------------
+# MIDI Note aliases (0-127)
+# -------------------------------
+Alias @0 NoteCN2
+Alias @1 NoteDbN2
+Alias @2 NoteDN2
+Alias @3 NoteEbN2
+Alias @4 NoteEN2
+Alias @5 NoteFN2
+Alias @6 NoteGbN2
+Alias @7 NoteGN2
+Alias @8 NoteAbN2
+Alias @9 NoteAN2
+Alias @10 NoteBbN2
+Alias @11 NoteBN2
+Alias @12 NoteCN1
+Alias @13 NoteDbN1
+Alias @14 NoteDN1
+Alias @15 NoteEbN1
+Alias @16 NoteEN1
+Alias @17 NoteFN1
+Alias @18 NoteGbN1
+Alias @19 NoteGN1
+Alias @20 NoteAbN1
+Alias @21 NoteAN1
+Alias @22 NoteBbN1
+Alias @23 NoteBN1
+Alias @24 NoteC0
+Alias @25 NoteDb0
+Alias @26 NoteD0
+Alias @27 NoteEb0
+Alias @28 NoteE0
+Alias @29 NoteF0
+Alias @30 NoteGb0
+Alias @31 NoteG0
+Alias @32 NoteAb0
+Alias @33 NoteA0
+Alias @34 NoteBb0
+Alias @35 NoteB0
+Alias @36 NoteC1
+Alias @37 NoteDb1
+Alias @38 NoteD1
+Alias @39 NoteEb1
+Alias @40 NoteE1
+Alias @41 NoteF1
+Alias @42 NoteGb1
+Alias @43 NoteG1
+Alias @44 NoteAb1
+Alias @45 NoteA1
+Alias @46 NoteBb1
+Alias @47 NoteB1
+Alias @48 NoteC2
+Alias @49 NoteDb2
+Alias @50 NoteD2
+Alias @51 NoteEb2
+Alias @52 NoteE2
+Alias @53 NoteF2
+Alias @54 NoteGb2
+Alias @55 NoteG2
+Alias @56 NoteAb2
+Alias @57 NoteA2
+Alias @58 NoteBb2
+Alias @59 NoteB2
+Alias @60 NoteC3
+Alias @61 NoteDb3
+Alias @62 NoteD3
+Alias @63 NoteEb3
+Alias @64 NoteE3
+Alias @65 NoteF3
+Alias @66 NoteGb3
+Alias @67 NoteG3
+Alias @68 NoteAb3
+Alias @69 NoteA3
+Alias @70 NoteBb3
+Alias @71 NoteB3
+Alias @72 NoteC4
+Alias @73 NoteDb4
+Alias @74 NoteD4
+Alias @75 NoteEb4
+Alias @76 NoteE4
+Alias @77 NoteF4
+Alias @78 NoteGb4
+Alias @79 NoteG4
+Alias @80 NoteAb4
+Alias @81 NoteA4
+Alias @82 NoteBb4
+Alias @83 NoteB4
+Alias @84 NoteC5
+Alias @85 NoteDb5
+Alias @86 NoteD5
+Alias @87 NoteEb5
+Alias @88 NoteE5
+Alias @89 NoteF5
+Alias @90 NoteGb5
+Alias @91 NoteG5
+Alias @92 NoteAb5
+Alias @93 NoteA5
+Alias @94 NoteBb5
+Alias @95 NoteB5
+Alias @96 NoteC6
+Alias @97 NoteDb6
+Alias @98 NoteD6
+Alias @99 NoteEb6
+Alias @100 NoteE6
+Alias @101 NoteF6
+Alias @102 NoteGb6
+Alias @103 NoteG6
+Alias @104 NoteAb6
+Alias @105 NoteA6
+Alias @106 NoteBb6
+Alias @107 NoteB6
+Alias @108 NoteC7
+Alias @109 NoteDb7
+Alias @110 NoteD7
+Alias @111 NoteEb7
+Alias @112 NoteE7
+Alias @113 NoteF7
+Alias @114 NoteGb7
+Alias @115 NoteG7
+Alias @116 NoteAb7
+Alias @117 NoteA7
+Alias @118 NoteBb7
+Alias @119 NoteB7
+Alias @120 NoteC8
+Alias @121 NoteDb8
+Alias @122 NoteD8
+Alias @123 NoteEb8
+Alias @124 NoteE8
+Alias @125 NoteF8
+Alias @126 NoteGb8
+Alias @127 NoteG8
+
+OnNote Any @L1 Positive
+  SendNote Channel <1> 127
+End
+OnNote Any @L2 Positive
+  SendNote Channel <2> 127
+End
+OnNote Any @L3 Positive
+  SendNote Channel <3> 127
+End
+OnNote Any @L4 Positive
+  SendNote Channel <4> 127
+End
+OnNote Any @L5 Positive
+  SendNote Channel <5> 127
+End
+OnNote Any @L6 Positive
+  SendNote Channel <6> 127
+End
+OnNote Any @L7 Positive
+  SendNote Channel <7> 127
+End
+OnNote Any @L8 Positive
+  SendNote Channel <8> 127
+End
+OnNote Any @L9 Positive
+  SendNote Channel <9> 127
+End
+OnNote Any @L10 Positive
+  SendNote Channel <10> 127
+End
+OnNote Any @L11 Positive
+  SendNote Channel <11> 127
+End
+OnNote Any @L12 Positive
+  SendNote Channel <12> 127
+End
+OnNote Any @L13 Positive
+  SendNote Channel <13> 127
+End
+OnNote Any @L14 Positive
+  SendNote Channel <14> 127
+End
+OnNote Any @L15 Positive
+  SendNote Channel <15> 127
+End
+OnNote Any @L16 Positive
+  SendNote Channel <16> 127
+End
+OnNote Any @L17 Positive
+  SendNote Channel <17> 127
+End
+OnNote Any @L18 Positive
+  SendNote Channel <18> 127
+End
+OnNote Any @L19 Positive
+  SendNote Channel <19> 127
+End
+OnNote Any @L20 Positive
+  SendNote Channel <20> 127
+End
+OnNote Any @L21 Positive
+  SendNote Channel <21> 127
+End
+OnNote Any @L22 Positive
+  SendNote Channel <22> 127
+End
+OnNote Any @L23 Positive
+  SendNote Channel <23> 127
+End
+OnNote Any @L24 Positive
+  SendNote Channel <24> 127
+End
+OnNote Any @L25 Positive
+  SendNote Channel <25> 127
+End
+OnNote Any @L26 Positive
+  SendNote Channel <26> 127
+End
+OnNote Any @L27 Positive
+  SendNote Channel <27> 127
+End
+OnNote Any @L28 Positive
+  SendNote Channel <28> 127
+End
+OnNote Any @L29 Positive
+  SendNote Channel <29> 127
+End
+OnNote Any @L30 Positive
+  SendNote Channel <30> 127
+End
+OnNote Any @L31 Positive
+  SendNote Channel <31> 127
+End
+OnNote Any @L32 Positive
+  SendNote Channel <32> 127
+End
+OnNote Any @L33 Positive
+  SendNote Channel <33> 127
+End
+OnNote Any @L34 Positive
+  SendNote Channel <34> 127
+End
+OnNote Any @L35 Positive
+  SendNote Channel <35> 127
+End
+OnNote Any @L36 Positive
+  SendNote Channel <36> 127
+End
+OnNote Any @L37 Positive
+  SendNote Channel <37> 127
+End
+OnNote Any @L38 Positive
+  SendNote Channel <38> 127
+End
+OnNote Any @L39 Positive
+  SendNote Channel <39> 127
+End
+OnNote Any @L40 Positive
+  SendNote Channel <40> 127
+End
+OnNote Any @L41 Positive
+  SendNote Channel <41> 127
+End
+OnNote Any @L42 Positive
+  SendNote Channel <42> 127
+End
+OnNote Any @L43 Positive
+  SendNote Channel <43> 127
+End
+OnNote Any @L44 Positive
+  SendNote Channel <44> 127
+End
+OnNote Any @L45 Positive
+  SendNote Channel <45> 127
+End
+OnNote Any @L46 Positive
+  SendNote Channel <46> 127
+End
+OnNote Any @L47 Positive
+  SendNote Channel <47> 127
+End
+OnNote Any @L48 Positive
+  SendNote Channel <48> 127
+End
+OnNote Any @L49 Positive
+  SendNote Channel <49> 127
+End
+OnNote Any @L50 Positive
+  SendNote Channel <50> 127
+End
+OnNote Any @L51 Positive
+  SendNote Channel <51> 127
+End
+OnNote Any @L52 Positive
+  SendNote Channel <52> 127
+End
+OnNote Any @L53 Positive
+  SendNote Channel <53> 127
+End
+OnNote Any @L54 Positive
+  SendNote Channel <54> 127
+End
+OnNote Any @L55 Positive
+  SendNote Channel <55> 127
+End
+OnNote Any @L56 Positive
+  SendNote Channel <56> 127
+End
+OnNote Any @L57 Positive
+  SendNote Channel <57> 127
+End
+OnNote Any @L58 Positive
+  SendNote Channel <58> 127
+End
+OnNote Any @L59 Positive
+  SendNote Channel <59> 127
+End
+OnNote Any @L60 Positive
+  SendNote Channel <60> 127
+End
+OnNote Any @L61 Positive
+  SendNote Channel <61> 127
+End
+OnNote Any @L62 Positive
+  SendNote Channel <62> 127
+End
+OnNote Any @L63 Positive
+  SendNote Channel <63> 127
+End
+OnNote Any @L64 Positive
+  SendNote Channel <64> 127
+End

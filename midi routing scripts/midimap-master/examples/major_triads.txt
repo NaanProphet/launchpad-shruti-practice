@@ -1,0 +1,79 @@
+# (c) Copyright 2017 Sean Connelly (@voidqk) http://sean.cm
+# MIT License
+# Project Home: https://github.com/voidqk/midimap
+
+#
+# converts notes into major triads from C3-B3
+#
+
+OnNote Any NoteC3 Any
+	SendNote Channel NoteC3 Value
+	SendNote Channel NoteE3 Value
+	SendNote Channel NoteG3 Value
+End
+
+OnNote Any NoteDb3 Any
+	SendNote Channel NoteDb3 Value
+	SendNote Channel NoteF3 Value
+	SendNote Channel NoteAb3 Value
+End
+
+OnNote Any NoteD3 Any
+	SendNote Channel NoteD3 Value
+	SendNote Channel NoteGb3 Value
+	SendNote Channel NoteA3 Value
+End
+
+OnNote Any NoteEb3 Any
+	SendNote Channel NoteEb3 Value
+	SendNote Channel NoteG3 Value
+	SendNote Channel NoteBb3 Value
+End
+
+OnNote Any NoteE3 Any
+	SendNote Channel NoteE3 Value
+	SendNote Channel NoteAb3 Value
+	SendNote Channel NoteB3 Value
+End
+
+OnNote Any NoteF3 Any
+	SendNote Channel NoteF3 Value
+	SendNote Channel NoteA3 Value
+	SendNote Channel NoteC4 Value
+End
+
+OnNote Any NoteGb3 Any
+	SendNote Channel NoteGb3 Value
+	SendNote Channel NoteBb3 Value
+	SendNote Channel NoteDb4 Value
+End
+
+OnNote Any NoteG3 Any
+	SendNote Channel NoteG3 Value
+	SendNote Channel NoteB3 Value
+	SendNote Channel NoteD4 Value
+End
+
+OnNote Any NoteAb3 Any
+	SendNote Channel NoteAb3 Value
+	SendNote Channel NoteC4 Value
+	SendNote Channel NoteEb4 Value
+End
+
+OnNote Any NoteA3 Any
+	SendNote Channel NoteA3 Value
+	SendNote Channel NoteDb4 Value
+	SendNote Channel NoteE4 Value
+End
+
+OnNote Any NoteBb3 Any
+	SendNote Channel NoteBb3 Value
+	SendNote Channel NoteD4 Value
+	SendNote Channel NoteF4 Value
+End
+
+OnNote Any NoteB3 Any
+	SendNote Channel NoteB3 Value
+	SendNote Channel NoteEb4 Value
+	SendNote Channel NoteGb4 Value
+End

@@ -1,0 +1,12 @@
+#!/bin/bash
+
+set -e
+
+pushd "$(dirname "$0")" > /dev/null
+SCRIPT_DIR="$(pwd)"
+popd > /dev/null
+TGT_DIR=$SCRIPT_DIR/tgt
+
+mkdir -p "$TGT_DIR"
+clang -O2 -fwrapv -Wall -Werror -framework Foundation -framework CoreMIDI -o "$TGT_DIR"/midimap \
+	"$SCRIPT_DIR"/midimap.m

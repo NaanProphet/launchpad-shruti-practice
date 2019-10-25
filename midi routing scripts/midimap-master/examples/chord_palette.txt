@@ -1,0 +1,559 @@
+# (c) Copyright 2017 Sean Connelly (@voidqk) http://sean.cm
+# MIT License
+# Project Home: https://github.com/voidqk/midimap
+
+OnNote Any NoteC2 0
+	SendNote Channel NoteC2 Value  # Bass Note
+	SendNote Channel NoteC3 Value
+	SendNote Channel NoteE3 Value
+	SendNote Channel NoteG3 Value
+End
+
+OnNote Any NoteC2 Positive
+	Print "I"
+	SendNote Channel NoteC2 Value  # Bass Note
+	SendNote Channel NoteC3 Value
+	SendNote Channel NoteE3 Value
+	SendNote Channel NoteG3 Value
+End
+
+OnNote Any NoteDb2 0
+	SendNote Channel NoteG2 Value  # Bass Note
+	SendNote Channel NoteB2 Value
+	SendNote Channel NoteD3 Value
+	SendNote Channel NoteF3 Value
+	SendNote Channel NoteG3 Value
+End
+
+OnNote Any NoteDb2 Positive
+	Print "V7"
+	SendNote Channel NoteG2 Value  # Bass Note
+	SendNote Channel NoteB2 Value
+	SendNote Channel NoteD3 Value
+	SendNote Channel NoteF3 Value
+	SendNote Channel NoteG3 Value
+End
+
+OnNote Any NoteD2 0
+	SendNote Channel NoteD2 Value  # Bass Note
+	SendNote Channel NoteD3 Value
+	SendNote Channel NoteF3 Value
+	SendNote Channel NoteA3 Value
+End
+
+OnNote Any NoteD2 Positive
+	Print "ii"
+	SendNote Channel NoteD2 Value  # Bass Note
+	SendNote Channel NoteD3 Value
+	SendNote Channel NoteF3 Value
+	SendNote Channel NoteA3 Value
+End
+
+OnNote Any NoteEb2 0
+	SendNote Channel NoteA2 Value  # Bass Note
+	SendNote Channel NoteDb3 Value
+	SendNote Channel NoteE3 Value
+	SendNote Channel NoteA3 Value
+End
+
+OnNote Any NoteEb2 Positive
+	Print "VI"
+	SendNote Channel NoteA2 Value  # Bass Note
+	SendNote Channel NoteDb3 Value
+	SendNote Channel NoteE3 Value
+	SendNote Channel NoteA3 Value
+End
+
+OnNote Any NoteE2 0
+	SendNote Channel NoteE2 Value  # Bass Note
+	SendNote Channel NoteB2 Value
+	SendNote Channel NoteE3 Value
+	SendNote Channel NoteG3 Value
+End
+
+OnNote Any NoteE2 Positive
+	Print "iii"
+	SendNote Channel NoteE2 Value  # Bass Note
+	SendNote Channel NoteB2 Value
+	SendNote Channel NoteE3 Value
+	SendNote Channel NoteG3 Value
+End
+
+OnNote Any NoteF2 0
+	SendNote Channel NoteF2 Value  # Bass Note
+	SendNote Channel NoteC3 Value
+	SendNote Channel NoteF3 Value
+	SendNote Channel NoteA3 Value
+End
+
+OnNote Any NoteF2 Positive
+	Print "IV"
+	SendNote Channel NoteF2 Value  # Bass Note
+	SendNote Channel NoteC3 Value
+	SendNote Channel NoteF3 Value
+	SendNote Channel NoteA3 Value
+End
+
+OnNote Any NoteGb2 0
+	SendNote Channel NoteC2 Value  # Bass Note
+	SendNote Channel NoteC3 Value
+	SendNote Channel NoteE3 Value
+	SendNote Channel NoteG3 Value
+	SendNote Channel NoteBb3 Value
+End
+
+OnNote Any NoteGb2 Positive
+	Print "I7"
+	SendNote Channel NoteC2 Value  # Bass Note
+	SendNote Channel NoteC3 Value
+	SendNote Channel NoteE3 Value
+	SendNote Channel NoteG3 Value
+	SendNote Channel NoteBb3 Value
+End
+
+OnNote Any NoteG2 0
+	SendNote Channel NoteG2 Value  # Bass Note
+	SendNote Channel NoteB2 Value
+	SendNote Channel NoteE3 Value
+	SendNote Channel NoteG3 Value
+End
+
+OnNote Any NoteG2 Positive
+	Print "V"
+	SendNote Channel NoteG2 Value  # Bass Note
+	SendNote Channel NoteB2 Value
+	SendNote Channel NoteE3 Value
+	SendNote Channel NoteG3 Value
+End
+
+OnNote Any NoteAb2 0
+	SendNote Channel NoteD2 Value  # Bass Note
+	SendNote Channel NoteD3 Value
+	SendNote Channel NoteGb3 Value
+	SendNote Channel NoteA3 Value
+End
+
+OnNote Any NoteAb2 Positive
+	Print "II"
+	SendNote Channel NoteD2 Value  # Bass Note
+	SendNote Channel NoteD3 Value
+	SendNote Channel NoteGb3 Value
+	SendNote Channel NoteA3 Value
+End
+
+OnNote Any NoteA2 0
+	SendNote Channel NoteA2 Value  # Bass Note
+	SendNote Channel NoteC3 Value
+	SendNote Channel NoteF3 Value
+	SendNote Channel NoteA3 Value
+End
+
+OnNote Any NoteA2 Positive
+	Print "vi"
+	SendNote Channel NoteA2 Value  # Bass Note
+	SendNote Channel NoteC3 Value
+	SendNote Channel NoteF3 Value
+	SendNote Channel NoteA3 Value
+End
+
+OnNote Any NoteBb2 0
+	SendNote Channel NoteE2 Value  # Bass Note
+	SendNote Channel NoteB2 Value
+	SendNote Channel NoteE3 Value
+	SendNote Channel NoteAb3 Value
+End
+
+OnNote Any NoteBb2 Positive
+	Print "III"
+	SendNote Channel NoteE2 Value  # Bass Note
+	SendNote Channel NoteB2 Value
+	SendNote Channel NoteE3 Value
+	SendNote Channel NoteAb3 Value
+End
+
+OnNote Any NoteB2 0
+	SendNote Channel NoteF2 Value  # Bass Note
+	SendNote Channel NoteC3 Value
+	SendNote Channel NoteF3 Value
+	SendNote Channel NoteAb3 Value
+End
+
+OnNote Any NoteB2 Positive
+	Print "iv"
+	SendNote Channel NoteF2 Value  # Bass Note
+	SendNote Channel NoteC3 Value
+	SendNote Channel NoteF3 Value
+	SendNote Channel NoteAb3 Value
+End
+
+OnNote Any NoteC3 0
+	SendNote Channel NoteC2 Value  # Bass Note
+	SendNote Channel NoteE3 Value
+	SendNote Channel NoteG3 Value
+	SendNote Channel NoteC4 Value
+End
+
+OnNote Any NoteC3 Positive
+	Print "I"
+	SendNote Channel NoteC2 Value  # Bass Note
+	SendNote Channel NoteE3 Value
+	SendNote Channel NoteG3 Value
+	SendNote Channel NoteC4 Value
+End
+
+OnNote Any NoteDb3 0
+	SendNote Channel NoteG2 Value  # Bass Note
+	SendNote Channel NoteD3 Value
+	SendNote Channel NoteF3 Value
+	SendNote Channel NoteG3 Value
+	SendNote Channel NoteB3 Value
+End
+
+OnNote Any NoteDb3 Positive
+	Print "V7"
+	SendNote Channel NoteG2 Value  # Bass Note
+	SendNote Channel NoteD3 Value
+	SendNote Channel NoteF3 Value
+	SendNote Channel NoteG3 Value
+	SendNote Channel NoteB3 Value
+End
+
+OnNote Any NoteD3 0
+	SendNote Channel NoteD2 Value  # Bass Note
+	SendNote Channel NoteF3 Value
+	SendNote Channel NoteA3 Value
+	SendNote Channel NoteD4 Value
+End
+
+OnNote Any NoteD3 Positive
+	Print "ii"
+	SendNote Channel NoteD2 Value  # Bass Note
+	SendNote Channel NoteF3 Value
+	SendNote Channel NoteA3 Value
+	SendNote Channel NoteD4 Value
+End
+
+OnNote Any NoteEb3 0
+	SendNote Channel NoteA2 Value  # Bass Note
+	SendNote Channel NoteE3 Value
+	SendNote Channel NoteA3 Value
+	SendNote Channel NoteDb4 Value
+End
+
+OnNote Any NoteEb3 Positive
+	Print "VI"
+	SendNote Channel NoteA2 Value  # Bass Note
+	SendNote Channel NoteE3 Value
+	SendNote Channel NoteA3 Value
+	SendNote Channel NoteDb4 Value
+End
+
+OnNote Any NoteE3 0
+	SendNote Channel NoteE2 Value  # Bass Note
+	SendNote Channel NoteE3 Value
+	SendNote Channel NoteG3 Value
+	SendNote Channel NoteB3 Value
+End
+
+OnNote Any NoteE3 Positive
+	Print "iii"
+	SendNote Channel NoteE2 Value  # Bass Note
+	SendNote Channel NoteE3 Value
+	SendNote Channel NoteG3 Value
+	SendNote Channel NoteB3 Value
+End
+
+OnNote Any NoteF3 0
+	SendNote Channel NoteF2 Value  # Bass Note
+	SendNote Channel NoteF3 Value
+	SendNote Channel NoteA3 Value
+	SendNote Channel NoteC4 Value
+End
+
+OnNote Any NoteF3 Positive
+	Print "IV"
+	SendNote Channel NoteF2 Value  # Bass Note
+	SendNote Channel NoteF3 Value
+	SendNote Channel NoteA3 Value
+	SendNote Channel NoteC4 Value
+End
+
+OnNote Any NoteGb3 0
+	SendNote Channel NoteC2 Value  # Bass Note
+	SendNote Channel NoteE3 Value
+	SendNote Channel NoteG3 Value
+	SendNote Channel NoteBb3 Value
+	SendNote Channel NoteC4 Value
+End
+
+OnNote Any NoteGb3 Positive
+	Print "I7"
+	SendNote Channel NoteC2 Value  # Bass Note
+	SendNote Channel NoteE3 Value
+	SendNote Channel NoteG3 Value
+	SendNote Channel NoteBb3 Value
+	SendNote Channel NoteC4 Value
+End
+
+OnNote Any NoteG3 0
+	SendNote Channel NoteG2 Value  # Bass Note
+	SendNote Channel NoteE3 Value
+	SendNote Channel NoteG3 Value
+	SendNote Channel NoteB3 Value
+End
+
+OnNote Any NoteG3 Positive
+	Print "V"
+	SendNote Channel NoteG2 Value  # Bass Note
+	SendNote Channel NoteE3 Value
+	SendNote Channel NoteG3 Value
+	SendNote Channel NoteB3 Value
+End
+
+OnNote Any NoteAb3 0
+	SendNote Channel NoteD2 Value  # Bass Note
+	SendNote Channel NoteGb3 Value
+	SendNote Channel NoteA3 Value
+	SendNote Channel NoteD4 Value
+End
+
+OnNote Any NoteAb3 Positive
+	Print "II"
+	SendNote Channel NoteD2 Value  # Bass Note
+	SendNote Channel NoteGb3 Value
+	SendNote Channel NoteA3 Value
+	SendNote Channel NoteD4 Value
+End
+
+OnNote Any NoteA3 0
+	SendNote Channel NoteA2 Value  # Bass Note
+	SendNote Channel NoteF3 Value
+	SendNote Channel NoteA3 Value
+	SendNote Channel NoteC4 Value
+End
+
+OnNote Any NoteA3 Positive
+	Print "vi"
+	SendNote Channel NoteA2 Value  # Bass Note
+	SendNote Channel NoteF3 Value
+	SendNote Channel NoteA3 Value
+	SendNote Channel NoteC4 Value
+End
+
+OnNote Any NoteBb3 0
+	SendNote Channel NoteE2 Value  # Bass Note
+	SendNote Channel NoteE3 Value
+	SendNote Channel NoteAb3 Value
+	SendNote Channel NoteB3 Value
+End
+
+OnNote Any NoteBb3 Positive
+	Print "III"
+	SendNote Channel NoteE2 Value  # Bass Note
+	SendNote Channel NoteE3 Value
+	SendNote Channel NoteAb3 Value
+	SendNote Channel NoteB3 Value
+End
+
+OnNote Any NoteB3 0
+	SendNote Channel NoteF2 Value  # Bass Note
+	SendNote Channel NoteF3 Value
+	SendNote Channel NoteAb3 Value
+	SendNote Channel NoteC4 Value
+End
+
+OnNote Any NoteB3 Positive
+	Print "iv"
+	SendNote Channel NoteF2 Value  # Bass Note
+	SendNote Channel NoteF3 Value
+	SendNote Channel NoteAb3 Value
+	SendNote Channel NoteC4 Value
+End
+
+OnNote Any NoteC4 0
+	SendNote Channel NoteC2 Value  # Bass Note
+	SendNote Channel NoteG3 Value
+	SendNote Channel NoteC4 Value
+	SendNote Channel NoteE4 Value
+End
+
+OnNote Any NoteC4 Positive
+	Print "I"
+	SendNote Channel NoteC2 Value  # Bass Note
+	SendNote Channel NoteG3 Value
+	SendNote Channel NoteC4 Value
+	SendNote Channel NoteE4 Value
+End
+
+OnNote Any NoteDb4 0
+	SendNote Channel NoteG2 Value  # Bass Note
+	SendNote Channel NoteF3 Value
+	SendNote Channel NoteG3 Value
+	SendNote Channel NoteB3 Value
+	SendNote Channel NoteD4 Value
+End
+
+OnNote Any NoteDb4 Positive
+	Print "V7"
+	SendNote Channel NoteG2 Value  # Bass Note
+	SendNote Channel NoteF3 Value
+	SendNote Channel NoteG3 Value
+	SendNote Channel NoteB3 Value
+	SendNote Channel NoteD4 Value
+End
+
+OnNote Any NoteD4 0
+	SendNote Channel NoteD2 Value  # Bass Note
+	SendNote Channel NoteA3 Value
+	SendNote Channel NoteD4 Value
+	SendNote Channel NoteF4 Value
+End
+
+OnNote Any NoteD4 Positive
+	Print "ii"
+	SendNote Channel NoteD2 Value  # Bass Note
+	SendNote Channel NoteA3 Value
+	SendNote Channel NoteD4 Value
+	SendNote Channel NoteF4 Value
+End
+
+OnNote Any NoteEb4 0
+	SendNote Channel NoteA2 Value  # Bass Note
+	SendNote Channel NoteA3 Value
+	SendNote Channel NoteDb4 Value
+	SendNote Channel NoteE4 Value
+End
+
+OnNote Any NoteEb4 Positive
+	Print "VI"
+	SendNote Channel NoteA2 Value  # Bass Note
+	SendNote Channel NoteA3 Value
+	SendNote Channel NoteDb4 Value
+	SendNote Channel NoteE4 Value
+End
+
+OnNote Any NoteE4 0
+	SendNote Channel NoteE2 Value  # Bass Note
+	SendNote Channel NoteG3 Value
+	SendNote Channel NoteB3 Value
+	SendNote Channel NoteE4 Value
+End
+
+OnNote Any NoteE4 Positive
+	Print "iii"
+	SendNote Channel NoteE2 Value  # Bass Note
+	SendNote Channel NoteG3 Value
+	SendNote Channel NoteB3 Value
+	SendNote Channel NoteE4 Value
+End
+
+OnNote Any NoteF4 0
+	SendNote Channel NoteF2 Value  # Bass Note
+	SendNote Channel NoteA3 Value
+	SendNote Channel NoteC4 Value
+	SendNote Channel NoteF4 Value
+End
+
+OnNote Any NoteF4 Positive
+	Print "IV"
+	SendNote Channel NoteF2 Value  # Bass Note
+	SendNote Channel NoteA3 Value
+	SendNote Channel NoteC4 Value
+	SendNote Channel NoteF4 Value
+End
+
+OnNote Any NoteGb4 0
+	SendNote Channel NoteC2 Value  # Bass Note
+	SendNote Channel NoteG3 Value
+	SendNote Channel NoteBb3 Value
+	SendNote Channel NoteC4 Value
+	SendNote Channel NoteE4 Value
+End
+
+OnNote Any NoteGb4 Positive
+	Print "I7"
+	SendNote Channel NoteC2 Value  # Bass Note
+	SendNote Channel NoteG3 Value
+	SendNote Channel NoteBb3 Value
+	SendNote Channel NoteC4 Value
+	SendNote Channel NoteE4 Value
+End
+
+OnNote Any NoteG4 0
+	SendNote Channel NoteG2 Value  # Bass Note
+	SendNote Channel NoteG3 Value
+	SendNote Channel NoteB3 Value
+	SendNote Channel NoteE4 Value
+End
+
+OnNote Any NoteG4 Positive
+	Print "V"
+	SendNote Channel NoteG2 Value  # Bass Note
+	SendNote Channel NoteG3 Value
+	SendNote Channel NoteB3 Value
+	SendNote Channel NoteE4 Value
+End
+
+OnNote Any NoteAb4 0
+	SendNote Channel NoteD2 Value  # Bass Note
+	SendNote Channel NoteA3 Value
+	SendNote Channel NoteD4 Value
+	SendNote Channel NoteGb4 Value
+End
+
+OnNote Any NoteAb4 Positive
+	Print "II"
+	SendNote Channel NoteD2 Value  # Bass Note
+	SendNote Channel NoteA3 Value
+	SendNote Channel NoteD4 Value
+	SendNote Channel NoteGb4 Value
+End
+
+OnNote Any NoteA4 0
+	SendNote Channel NoteA2 Value  # Bass Note
+	SendNote Channel NoteA3 Value
+	SendNote Channel NoteC4 Value
+	SendNote Channel NoteF4 Value
+End
+
+OnNote Any NoteA4 Positive
+	Print "vi"
+	SendNote Channel NoteA2 Value  # Bass Note
+	SendNote Channel NoteA3 Value
+	SendNote Channel NoteC4 Value
+	SendNote Channel NoteF4 Value
+End
+
+OnNote Any NoteBb4 0
+	SendNote Channel NoteE2 Value  # Bass Note
+	SendNote Channel NoteAb3 Value
+	SendNote Channel NoteB3 Value
+	SendNote Channel NoteE4 Value
+End
+
+OnNote Any NoteBb4 Positive
+	Print "III"
+	SendNote Channel NoteE2 Value  # Bass Note
+	SendNote Channel NoteAb3 Value
+	SendNote Channel NoteB3 Value
+	SendNote Channel NoteE4 Value
+End
+
+OnNote Any NoteB4 0
+	SendNote Channel NoteF2 Value  # Bass Note
+	SendNote Channel NoteAb3 Value
+	SendNote Channel NoteC4 Value
+	SendNote Channel NoteF4 Value
+End
+
+OnNote Any NoteB4 Positive
+	Print "iv"
+	SendNote Channel NoteF2 Value  # Bass Note
+	SendNote Channel NoteAb3 Value
+	SendNote Channel NoteC4 Value
+	SendNote Channel NoteF4 Value
+End
+
+OnElse
+	SendCopy
+End

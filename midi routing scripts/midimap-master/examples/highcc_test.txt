@@ -1,0 +1,12 @@
+# (c) Copyright 2017 Sean Connelly (@voidqk) http://sean.cm
+# MIT License
+# Project Home: https://github.com/voidqk/midimap
+
+#
+# test for highcc
+#
+
+OnHighCC Any Any Any
+	Print Channel Control Value RawData
+	SendHighCC Channel Control Value
+End

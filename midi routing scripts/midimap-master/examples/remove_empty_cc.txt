@@ -1,0 +1,20 @@
+# (c) Copyright 2017 Sean Connelly (@voidqk) http://sean.cm
+# MIT License
+# Project Home: https://github.com/voidqk/midimap
+
+#
+# don't let any CC commands send 0
+#
+
+OnLowCC Any Any 0
+	Print RawData "(BLOCKED)"
+End
+
+OnHighCC Any Any 0
+	Print RawData "(BLOCKED)"
+End
+
+OnElse
+	Print RawData
+	SendCopy
+End

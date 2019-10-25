@@ -1,0 +1,68 @@
+# (c) Copyright 2017 Sean Connelly (@voidqk) http://sean.cm
+# MIT License
+# Project Home: https://github.com/voidqk/midimap
+
+#
+# maps 8 notes to the C Major triads
+#
+
+OnNote Any NoteC1 Any
+	Print "I  : C Major"
+	SendNote Channel NoteC3 Value
+	SendNote Channel NoteE3 Value
+	SendNote Channel NoteG3 Value
+End
+
+OnNote Any NoteDb1 Any
+	Print "ii : D Minor"
+	SendNote Channel NoteD3 Value
+	SendNote Channel NoteF3 Value
+	SendNote Channel NoteA3 Value
+End
+
+OnNote Any NoteD1 Any
+	Print "iii: E Minor"
+	SendNote Channel NoteB2 Value
+	SendNote Channel NoteE3 Value
+	SendNote Channel NoteG3 Value
+End
+
+OnNote Any NoteEb1 Any
+	Print "iv : F Minor"
+	SendNote Channel NoteC3 Value
+	SendNote Channel NoteF3 Value
+	SendNote Channel NoteAb3 Value
+End
+
+OnNote Any NoteE1 Any
+	Print "IV : F Major"
+	SendNote Channel NoteC3 Value
+	SendNote Channel NoteF3 Value
+	SendNote Channel NoteA3 Value
+End
+
+OnNote Any NoteF1 Any
+	Print "V  : G Major"
+	SendNote Channel NoteB2 Value
+	SendNote Channel NoteD3 Value
+	SendNote Channel NoteG3 Value
+End
+
+OnNote Any NoteGb1 Any
+	Print "vi : A Minor"
+	SendNote Channel NoteC3 Value
+	SendNote Channel NoteE3 Value
+	SendNote Channel NoteA3 Value
+End
+
+OnNote Any NoteG1 Any
+	Print "V7 : G Major 7th"
+	SendNote Channel NoteB2 Value
+	SendNote Channel NoteD3 Value
+	SendNote Channel NoteF3 Value
+	SendNote Channel NoteG3 Value
+End
+
+OnElse
+	SendCopy
+End

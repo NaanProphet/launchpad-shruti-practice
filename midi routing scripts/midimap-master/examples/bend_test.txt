@@ -1,0 +1,12 @@
+# (c) Copyright 2017 Sean Connelly (@voidqk) http://sean.cm
+# MIT License
+# Project Home: https://github.com/voidqk/midimap
+
+#
+# test for bend
+#
+
+OnBend Any Any
+	Print Channel Value RawData
+	SendBend Channel Value
+End

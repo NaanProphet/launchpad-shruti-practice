@@ -1,0 +1,88 @@
+#!/bin/bash
+#
+# Executes midimap with alias mappings for the Novation Launchkey MIDI controller.
+#
+
+set -e
+
+pushd "$(dirname "$0")" > /dev/null
+SCRIPT_DIR="$(pwd)"
+popd > /dev/null
+TGT_DIR=$SCRIPT_DIR/tgt
+
+cmd=(
+	$TGT_DIR/midimap
+
+	# device doesn't use high resolution controllers
+	-f
+
+	# Track left/right buttons in upper-left
+	-a @TrackLeft  ControlReserved2
+	-a @TrackRight ControlReserved1
+
+	# Mod wheel
+	-a @Mod ControlModMSB
+
+	# Faders across the top
+	-a @Fader1 ControlUndefined7LSB
+	-a @Fader2 ControlPanLSB
+	-a @Fader3 ControlExpressionLSB
+	-a @Fader4 ControlEffect6LSB
+	-a @Fader5 ControlEffect7LSB
+	-a @Fader6 ControlUndefined8LSB
+	-a @Fader7 ControlUndefined9LSB
+	-a @Fader8 ControlGeneral1LSB
+	-a @Fader9 ControlChannelVolumeMSB
+
+	# Solo/Mute buttons under the faders
+	-a @Solo1 ControlGeneral4LSB
+	-a @Solo2 ControlUndefined10LSB
+	-a @Solo3 ControlUndefined11LSB
+	-a @Solo4 ControlUndefined12LSB
+	-a @Solo5 ControlUndefined13LSB
+	-a @Solo6 ControlUndefined14LSB
+	-a @Solo7 ControlUndefined15LSB
+	-a @Solo8 ControlUndefined16LSB
+	-a @Solo9 ControlUndefined17LSB
+
+	# Dials above the pads
+	-a @Dial1 ControlUndefined11MSB
+	-a @Dial2 ControlUndefined12MSB
+	-a @Dial3 ControlUndefined13MSB
+	-a @Dial4 ControlUndefined14MSB
+	-a @Dial5 ControlUndefined15MSB
+	-a @Dial6 ControlUndefined16MSB
+	-a @Dial7 ControlUndefined17MSB
+	-a @Dial8 ControlUndefined18MSB
+
+	# Pads, going from left to right, then top to bottom
+	-a @Pad1  NoteE1
+	-a @Pad2  NoteF1
+	-a @Pad3  NoteGb1
+	-a @Pad4  NoteG1
+	-a @Pad5  NoteC2
+	-a @Pad6  NoteDb2
+	-a @Pad7  NoteD2
+	-a @Pad8  NoteEb2
+	-a @Pad9  NoteC1
+	-a @Pad10 NoteDb1
+	-a @Pad11 NoteD1
+	-a @Pad12 NoteEb1
+	-a @Pad13 NoteAb1
+	-a @Pad14 NoteA1
+	-a @Pad15 NoteBb1
+	-a @Pad16 NoteB1
+
+	# Arrow/triangle buttons, to the right of the pads
+	-a @Arrow1 ControlReserved3
+	-a @Arrow2 ControlReserved4
+
+	# Transport control buttons
+	-a @Rewind   ControlReserved11
+	-a @Forward  ControlReserved12
+	-a @Stop     ControlReserved13
+	-a @Play     ControlReserved14
+	-a @Loop     ControlReserved15
+	-a @Record   ControlReserved16
+)
+"${cmd[@]}" $@

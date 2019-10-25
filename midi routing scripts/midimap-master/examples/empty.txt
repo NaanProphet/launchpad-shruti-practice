@@ -1,0 +1,13 @@
+# (c) Copyright 2017 Sean Connelly (@voidqk) http://sean.cm
+# MIT License
+# Project Home: https://github.com/voidqk/midimap
+
+#
+# Run with the -d argument to spy on all data received and sent:
+#
+#   midimap -d -m 1 ./examples/empty.txt
+#
+
+OnElse
+	SendCopy
+End
