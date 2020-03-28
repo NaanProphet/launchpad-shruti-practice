@@ -1,2 +1,5 @@
 
 .DS_Store
+Brewfile.lock.json
+temp
+Scala.app

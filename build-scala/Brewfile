@@ -1,0 +1,2 @@
+cask "xquartz"
+brew "wine"
