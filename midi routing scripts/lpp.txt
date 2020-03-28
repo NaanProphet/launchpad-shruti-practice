@@ -220,22 +220,22 @@ OnNote Any @L5 Positive
   SendNote Channel @42 127
 End
 OnNote Any @L6 Positive
-  SendNote Channel @43 127
+  SendNote Channel @43 80
 End
 OnNote Any @L7 Positive
-  SendNote Channel @44 127
+  SendNote Channel @44 80
 End
 OnNote Any @L8 Positive
-  SendNote Channel @45 127
+  SendNote Channel @45 50
 End
 OnNote Any @L9 Positive
-  SendNote Channel @46 127
+  SendNote Channel @46 80
 End
 OnNote Any @L10 Positive
-  SendNote Channel @47 127
+  SendNote Channel @47 60
 End
 OnNote Any @L11 Positive
-  SendNote Channel @48 127
+  SendNote Channel @48 65
 End
 OnNote Any @L12 Positive
   SendNote Channel @49 127
