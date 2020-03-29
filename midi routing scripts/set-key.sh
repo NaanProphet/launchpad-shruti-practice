@@ -16,24 +16,42 @@ if [ "${BASH_VERSINFO:-0}" -lt 4 ]; then
 fi
 
 if [ "$#" -ne 1 ]; then
-    echo -e "\e[1;31mUsage: ./set-key.sh <transpose> "
-    echo -e "where transpose is the number of half steps from C3 (can be negative)\e[0m"
+    echo -e "\e[1;31mUsage: ./set-key.sh <kontakt script file exported from Scala>\e[0m"
     exit 1
 fi
 
-# number of overlapping notes across row boundaries 
-# launchpad firmware defaults this to min 1, but here it can be zero!
-OVERLAP=0
+# input args
+KONTAKT_SCRIPT="$1"
 
 # output files
 COLOR_OUTPUT="lpp-colors.smidi"
 MIDI_OUTPUT="lpp.txt"
 
+# number of overlapping notes across row boundaries 
+# launchpad firmware defaults this to min 1, but here it can be zero!
+OVERLAP=0
+
+# No matter what the scale, Scala will not change MIDI 60 (C4 zero cents)
+# The rest of the notes are filled out on either side!
+# Define what we want the lower left hand corner of the Launchpad Pro to be.
+# C2 is MIDI 36, the default in Programmer mode is MIDI 11
+#
+MIDI_C2=36
+MIDI_C3=48
+# search scala text file to determine starting MIDI note
+SCALA_C2_MIDI_START=`grep ":= ${MIDI_C2}" "${KONTAKT_SCRIPT}" | cut -d "[" -f2 | cut -d "]" -f1`
+SCALA_C3_MIDI_START=`grep ":= ${MIDI_C3}" "${KONTAKT_SCRIPT}" | cut -d "[" -f2 | cut -d "]" -f1`
+# deduce number of notes in octave
+NOTES_PER_OCTAVE=$(( SCALA_C3_MIDI_START - SCALA_C2_MIDI_START ))
+# shift from C2
+OCTAVE_SHIFT=1
+# Define what we want the lower left hand corner of the Launchpad Pro to be.
+# default in Programmer mode is MIDI 11 
+MIDI_START=$(( SCALA_C2_MIDI_START + NOTES_PER_OCTAVE*OCTAVE_SHIFT ))
 MIDIMAP_TEMPLATE="${DIR}/templates/midimap.template.txt"
 ALIAS_PLACEHOLDER=@
 REPLACE_START_CHAR='<'
 REPLACE_END_CHAR='>'
-MIDI_C1_NOTE=36
 
 # read dictionaries
 declare -A velocities
@@ -43,21 +61,6 @@ while read line; do
   velocities[$key]="$data"
 done < "${DIR}/templates/velocities.txt"
 
-declare -A transpositions
-while read line; do 
-  key=$(echo $line | cut -d "|" -f1)
-  data=$(echo $line | cut -d "|" -f2)
-  transpositions[$key]="$data"
-done < "${DIR}/templates/transpositions.txt"
-
-# number of halfsteps from C
-TRANSPOSE="$1"
-key_name="${transpositions[${TRANSPOSE}]}"
-if [ -z ${key_name} ]; then
-    echo -e "\e[1;31mCould not determine key for transposition of ${TRANSPOSE}."
-    echo -e "Valid values: -3 -2 -1 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16\e[0m"
-    exit 1
-fi
 
 SYSEX_HEADER='0 32 41 2 16 15 1'
 NUM_NOTES_OCTAVE=22
@@ -118,7 +121,7 @@ while read -r line; do
 	# shruti_index if from 0 to 21, because it's a bash array
     shruti_index=$(( (key -1 - offset) % (NUM_NOTES_OCTAVE) ))
     color="${COLORS[$shruti_index]}"
-    note=$(( (MIDI_C1_NOTE + TRANSPOSE) + (key - 1) - offset ))
+    note=$(( MIDI_START + (key - 1) - offset ))
     velocity="${velocities[${ALIAS_PLACEHOLDER}${note}]}"
     replaced_line=$(echo "$line" | sed "s/${REPLACE_START_CHAR}${key}${REPLACE_END_CHAR}/${ALIAS_PLACEHOLDER}${note} ${velocity}/g")
 
@@ -128,7 +131,6 @@ while read -r line; do
     # write to output files
     echo "$color" >> "${COLOR_OUTPUT}"
     echo "  $replaced_line" >> "${MIDI_OUTPUT}"
-    echo "$replaced_line"
     
   else
     echo "$line" >> "${MIDI_OUTPUT}"
@@ -138,7 +140,8 @@ done < "${MIDIMAP_TEMPLATE}"
 if [ $key -ne 64 ]; then
     echo -e "\e[1;31mScript generation failed.\e[0m"
 else
+    echo -e "\e[1;32mKontakt script contains ${NOTES_PER_OCTAVE} notes per octave"
     echo -e "\e[1;32mSuccessfully created ${COLOR_OUTPUT} and ${MIDI_OUTPUT}"
-    echo -e "Key set to ${key_name}, ${TRANSPOSE} half steps from C3!"
-    echo -e "Start practicing with \`sh start.sh\` 🥳\e[0m"
+    echo -e "Lower left hand corner of Launchpad set to MIDI ${MIDI_START}"
+    echo -e "Start practicing with \`sh start.sh\` and use Tune to adjust the scale! 🥳\e[0m"
 fi
