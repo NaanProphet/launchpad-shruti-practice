@@ -52,6 +52,7 @@ MIDIMAP_TEMPLATE="${DIR}/templates/midimap.template.txt"
 ALIAS_PLACEHOLDER=@
 REPLACE_START_CHAR='<'
 REPLACE_END_CHAR='>'
+NOTE_OFF_MAGIC_STRING="${REPLACE_END_CHAR}${REPLACE_END_CHAR}"
 
 # read dictionaries
 declare -A velocities
@@ -97,6 +98,7 @@ echo "dec syx ${SYSEX_HEADER}" >> "${COLOR_OUTPUT}"
 
 
 # initialize counters
+counter=0
 row=0
 key=0
 offset=0
@@ -105,11 +107,20 @@ offset=0
 while read -r line; do
 
   # identify lines that have the magic placeholder <NUMBER>
-  if echo "$line" | grep -qE "${REPLACE_START_CHAR}[0-9]+${REPLACE_END_CHAR}"; then
+  if echo "$line" | grep -qE "${REPLACE_START_CHAR}[0-9]+${REPLACE_END_CHAR}+"; then
+    
+    counter=$(( counter+1 ))
+
+    if [ "${counter}" -eq 65 ]; then
+      # reset for note off section
+      key=0
+      row=0
+      offset=0
+    fi
 
     # key is from 1 to 64 - number of total keys on the launchpad
     # row is from from 1 to 8 - refers to the row on the launchpad
-    # offset is for overlapping the same notes across rows 
+    # offset is for overlapping the same notes across rows
     key=$(( key+1 ))
     if [ $(( key % 8 )) = 1 ]; then
       row=$(( row+1 ))
@@ -122,14 +133,25 @@ while read -r line; do
     shruti_index=$(( (key -1 - offset) % (NUM_NOTES_OCTAVE) ))
     color="${COLORS[$shruti_index]}"
     note=$(( MIDI_START + (key - 1) - offset ))
-    velocity="${velocities[${ALIAS_PLACEHOLDER}${note}]}"
-    replaced_line=$(echo "$line" | sed "s/${REPLACE_START_CHAR}${key}${REPLACE_END_CHAR}/${ALIAS_PLACEHOLDER}${note} ${velocity}/g")
+    
+    # check for note on vs. note off
+    if echo "$line" | grep -q "${NOTE_OFF_MAGIC_STRING}"; then
+      velocity=0
+      endchar="${NOTE_OFF_MAGIC_STRING}"
+    else
+      velocity="${velocities[${ALIAS_PLACEHOLDER}${note}]}"
+      endchar="${REPLACE_END_CHAR}"
+    fi
+    replaced_line=$(echo "$line" | sed "s/${REPLACE_START_CHAR}${key}${endchar}/${ALIAS_PLACEHOLDER}${note} ${velocity}/g")
 
     # no tests yet, so echo for poor man's verification with fixed width
     echo "Key `printf %02d $key` - Row $row - Shruti `printf %02d $shruti_index` - MIDI `printf %03d $note` - Velocity `printf %03d $velocity` - RGB $color"
 
     # write to output files
-    echo "$color" >> "${COLOR_OUTPUT}"
+    if [ "${counter}" -le 64 ]; then
+      echo "$color" >> "${COLOR_OUTPUT}"
+    fi
+    
     echo "  $replaced_line" >> "${MIDI_OUTPUT}"
     
   else
@@ -137,7 +159,8 @@ while read -r line; do
   fi
 done < "${MIDIMAP_TEMPLATE}"
 
-if [ $key -ne 64 ]; then
+# 64 notes on launchpad, x2 for note on/off
+if [ "${counter}" -ne 128 ]; then
     echo -e "\e[1;31mScript generation failed.\e[0m"
 else
     echo -e "\e[1;32mKontakt script contains ${NOTES_PER_OCTAVE} notes per octave"

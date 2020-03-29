@@ -204,6 +204,10 @@ Alias @125 NoteF8
 Alias @126 NoteGb8
 Alias @127 NoteG8
 
+# -------------------------------
+# Note On Commands
+# -------------------------------
+
 OnNote Any @L1 Positive
   SendNote Channel @38 127
 End
@@ -395,4 +399,201 @@ OnNote Any @L63 Positive
 End
 OnNote Any @L64 Positive
   SendNote Channel @101 127
+End
+
+# -------------------------------
+# Note Off Commands
+# -------------------------------
+
+OnNote Any @L1 0
+  SendNote Channel @38 0
+End
+OnNote Any @L2 0
+  SendNote Channel @39 0
+End
+OnNote Any @L3 0
+  SendNote Channel @40 0
+End
+OnNote Any @L4 0
+  SendNote Channel @41 0
+End
+OnNote Any @L5 0
+  SendNote Channel @42 0
+End
+OnNote Any @L6 0
+  SendNote Channel @43 0
+End
+OnNote Any @L7 0
+  SendNote Channel @44 0
+End
+OnNote Any @L8 0
+  SendNote Channel @45 0
+End
+OnNote Any @L9 0
+  SendNote Channel @46 0
+End
+OnNote Any @L10 0
+  SendNote Channel @47 0
+End
+OnNote Any @L11 0
+  SendNote Channel @48 0
+End
+OnNote Any @L12 0
+  SendNote Channel @49 0
+End
+OnNote Any @L13 0
+  SendNote Channel @50 0
+End
+OnNote Any @L14 0
+  SendNote Channel @51 0
+End
+OnNote Any @L15 0
+  SendNote Channel @52 0
+End
+OnNote Any @L16 0
+  SendNote Channel @53 0
+End
+OnNote Any @L17 0
+  SendNote Channel @54 0
+End
+OnNote Any @L18 0
+  SendNote Channel @55 0
+End
+OnNote Any @L19 0
+  SendNote Channel @56 0
+End
+OnNote Any @L20 0
+  SendNote Channel @57 0
+End
+OnNote Any @L21 0
+  SendNote Channel @58 0
+End
+OnNote Any @L22 0
+  SendNote Channel @59 0
+End
+OnNote Any @L23 0
+  SendNote Channel @60 0
+End
+OnNote Any @L24 0
+  SendNote Channel @61 0
+End
+OnNote Any @L25 0
+  SendNote Channel @62 0
+End
+OnNote Any @L26 0
+  SendNote Channel @63 0
+End
+OnNote Any @L27 0
+  SendNote Channel @64 0
+End
+OnNote Any @L28 0
+  SendNote Channel @65 0
+End
+OnNote Any @L29 0
+  SendNote Channel @66 0
+End
+OnNote Any @L30 0
+  SendNote Channel @67 0
+End
+OnNote Any @L31 0
+  SendNote Channel @68 0
+End
+OnNote Any @L32 0
+  SendNote Channel @69 0
+End
+OnNote Any @L33 0
+  SendNote Channel @70 0
+End
+OnNote Any @L34 0
+  SendNote Channel @71 0
+End
+OnNote Any @L35 0
+  SendNote Channel @72 0
+End
+OnNote Any @L36 0
+  SendNote Channel @73 0
+End
+OnNote Any @L37 0
+  SendNote Channel @74 0
+End
+OnNote Any @L38 0
+  SendNote Channel @75 0
+End
+OnNote Any @L39 0
+  SendNote Channel @76 0
+End
+OnNote Any @L40 0
+  SendNote Channel @77 0
+End
+OnNote Any @L41 0
+  SendNote Channel @78 0
+End
+OnNote Any @L42 0
+  SendNote Channel @79 0
+End
+OnNote Any @L43 0
+  SendNote Channel @80 0
+End
+OnNote Any @L44 0
+  SendNote Channel @81 0
+End
+OnNote Any @L45 0
+  SendNote Channel @82 0
+End
+OnNote Any @L46 0
+  SendNote Channel @83 0
+End
+OnNote Any @L47 0
+  SendNote Channel @84 0
+End
+OnNote Any @L48 0
+  SendNote Channel @85 0
+End
+OnNote Any @L49 0
+  SendNote Channel @86 0
+End
+OnNote Any @L50 0
+  SendNote Channel @87 0
+End
+OnNote Any @L51 0
+  SendNote Channel @88 0
+End
+OnNote Any @L52 0
+  SendNote Channel @89 0
+End
+OnNote Any @L53 0
+  SendNote Channel @90 0
+End
+OnNote Any @L54 0
+  SendNote Channel @91 0
+End
+OnNote Any @L55 0
+  SendNote Channel @92 0
+End
+OnNote Any @L56 0
+  SendNote Channel @93 0
+End
+OnNote Any @L57 0
+  SendNote Channel @94 0
+End
+OnNote Any @L58 0
+  SendNote Channel @95 0
+End
+OnNote Any @L59 0
+  SendNote Channel @96 0
+End
+OnNote Any @L60 0
+  SendNote Channel @97 0
+End
+OnNote Any @L61 0
+  SendNote Channel @98 0
+End
+OnNote Any @L62 0
+  SendNote Channel @99 0
+End
+OnNote Any @L63 0
+  SendNote Channel @100 0
+End
+OnNote Any @L64 0
+  SendNote Channel @101 0
 End
