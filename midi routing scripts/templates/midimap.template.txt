@@ -204,194 +204,194 @@ Alias @126 NoteGb8
 Alias @127 NoteG8
 
 OnNote Any @L1 Positive
-  SendNote Channel <1> 127
+  SendNote Channel <1>
 End
 OnNote Any @L2 Positive
-  SendNote Channel <2> 127
+  SendNote Channel <2>
 End
 OnNote Any @L3 Positive
-  SendNote Channel <3> 127
+  SendNote Channel <3>
 End
 OnNote Any @L4 Positive
-  SendNote Channel <4> 127
+  SendNote Channel <4>
 End
 OnNote Any @L5 Positive
-  SendNote Channel <5> 127
+  SendNote Channel <5>
 End
 OnNote Any @L6 Positive
-  SendNote Channel <6> 127
+  SendNote Channel <6>
 End
 OnNote Any @L7 Positive
-  SendNote Channel <7> 127
+  SendNote Channel <7>
 End
 OnNote Any @L8 Positive
-  SendNote Channel <8> 127
+  SendNote Channel <8>
 End
 OnNote Any @L9 Positive
-  SendNote Channel <9> 127
+  SendNote Channel <9>
 End
 OnNote Any @L10 Positive
-  SendNote Channel <10> 127
+  SendNote Channel <10>
 End
 OnNote Any @L11 Positive
-  SendNote Channel <11> 127
+  SendNote Channel <11>
 End
 OnNote Any @L12 Positive
-  SendNote Channel <12> 127
+  SendNote Channel <12>
 End
 OnNote Any @L13 Positive
-  SendNote Channel <13> 127
+  SendNote Channel <13>
 End
 OnNote Any @L14 Positive
-  SendNote Channel <14> 127
+  SendNote Channel <14>
 End
 OnNote Any @L15 Positive
-  SendNote Channel <15> 127
+  SendNote Channel <15>
 End
 OnNote Any @L16 Positive
-  SendNote Channel <16> 127
+  SendNote Channel <16>
 End
 OnNote Any @L17 Positive
-  SendNote Channel <17> 127
+  SendNote Channel <17>
 End
 OnNote Any @L18 Positive
-  SendNote Channel <18> 127
+  SendNote Channel <18>
 End
 OnNote Any @L19 Positive
-  SendNote Channel <19> 127
+  SendNote Channel <19>
 End
 OnNote Any @L20 Positive
-  SendNote Channel <20> 127
+  SendNote Channel <20>
 End
 OnNote Any @L21 Positive
-  SendNote Channel <21> 127
+  SendNote Channel <21>
 End
 OnNote Any @L22 Positive
-  SendNote Channel <22> 127
+  SendNote Channel <22>
 End
 OnNote Any @L23 Positive
-  SendNote Channel <23> 127
+  SendNote Channel <23>
 End
 OnNote Any @L24 Positive
-  SendNote Channel <24> 127
+  SendNote Channel <24>
 End
 OnNote Any @L25 Positive
-  SendNote Channel <25> 127
+  SendNote Channel <25>
 End
 OnNote Any @L26 Positive
-  SendNote Channel <26> 127
+  SendNote Channel <26>
 End
 OnNote Any @L27 Positive
-  SendNote Channel <27> 127
+  SendNote Channel <27>
 End
 OnNote Any @L28 Positive
-  SendNote Channel <28> 127
+  SendNote Channel <28>
 End
 OnNote Any @L29 Positive
-  SendNote Channel <29> 127
+  SendNote Channel <29>
 End
 OnNote Any @L30 Positive
-  SendNote Channel <30> 127
+  SendNote Channel <30>
 End
 OnNote Any @L31 Positive
-  SendNote Channel <31> 127
+  SendNote Channel <31>
 End
 OnNote Any @L32 Positive
-  SendNote Channel <32> 127
+  SendNote Channel <32>
 End
 OnNote Any @L33 Positive
-  SendNote Channel <33> 127
+  SendNote Channel <33>
 End
 OnNote Any @L34 Positive
-  SendNote Channel <34> 127
+  SendNote Channel <34>
 End
 OnNote Any @L35 Positive
-  SendNote Channel <35> 127
+  SendNote Channel <35>
 End
 OnNote Any @L36 Positive
-  SendNote Channel <36> 127
+  SendNote Channel <36>
 End
 OnNote Any @L37 Positive
-  SendNote Channel <37> 127
+  SendNote Channel <37>
 End
 OnNote Any @L38 Positive
-  SendNote Channel <38> 127
+  SendNote Channel <38>
 End
 OnNote Any @L39 Positive
-  SendNote Channel <39> 127
+  SendNote Channel <39>
 End
 OnNote Any @L40 Positive
-  SendNote Channel <40> 127
+  SendNote Channel <40>
 End
 OnNote Any @L41 Positive
-  SendNote Channel <41> 127
+  SendNote Channel <41>
 End
 OnNote Any @L42 Positive
-  SendNote Channel <42> 127
+  SendNote Channel <42>
 End
 OnNote Any @L43 Positive
-  SendNote Channel <43> 127
+  SendNote Channel <43>
 End
 OnNote Any @L44 Positive
-  SendNote Channel <44> 127
+  SendNote Channel <44>
 End
 OnNote Any @L45 Positive
-  SendNote Channel <45> 127
+  SendNote Channel <45>
 End
 OnNote Any @L46 Positive
-  SendNote Channel <46> 127
+  SendNote Channel <46>
 End
 OnNote Any @L47 Positive
-  SendNote Channel <47> 127
+  SendNote Channel <47>
 End
 OnNote Any @L48 Positive
-  SendNote Channel <48> 127
+  SendNote Channel <48>
 End
 OnNote Any @L49 Positive
-  SendNote Channel <49> 127
+  SendNote Channel <49>
 End
 OnNote Any @L50 Positive
-  SendNote Channel <50> 127
+  SendNote Channel <50>
 End
 OnNote Any @L51 Positive
-  SendNote Channel <51> 127
+  SendNote Channel <51>
 End
 OnNote Any @L52 Positive
-  SendNote Channel <52> 127
+  SendNote Channel <52>
 End
 OnNote Any @L53 Positive
-  SendNote Channel <53> 127
+  SendNote Channel <53>
 End
 OnNote Any @L54 Positive
-  SendNote Channel <54> 127
+  SendNote Channel <54>
 End
 OnNote Any @L55 Positive
-  SendNote Channel <55> 127
+  SendNote Channel <55>
 End
 OnNote Any @L56 Positive
-  SendNote Channel <56> 127
+  SendNote Channel <56>
 End
 OnNote Any @L57 Positive
-  SendNote Channel <57> 127
+  SendNote Channel <57>
 End
 OnNote Any @L58 Positive
-  SendNote Channel <58> 127
+  SendNote Channel <58>
 End
 OnNote Any @L59 Positive
-  SendNote Channel <59> 127
+  SendNote Channel <59>
 End
 OnNote Any @L60 Positive
-  SendNote Channel <60> 127
+  SendNote Channel <60>
 End
 OnNote Any @L61 Positive
-  SendNote Channel <61> 127
+  SendNote Channel <61>
 End
 OnNote Any @L62 Positive
-  SendNote Channel <62> 127
+  SendNote Channel <62>
 End
 OnNote Any @L63 Positive
-  SendNote Channel <63> 127
+  SendNote Channel <63>
 End
 OnNote Any @L64 Positive
-  SendNote Channel <64> 127
+  SendNote Channel <64>
 End
