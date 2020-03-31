@@ -98,6 +98,8 @@ See [Native Instruments Komplete Version Comparison](https://docs.google.com/spr
 
 ## Shruti Colors
 
+### Definition
+
 The ratios of the 22 shrutis used are the same as those defined and researched by Dr. Vidyadhar Oke. The RGB values are sent via Sysex commands and are specified in `lpp-colors.smidi`.
 
 | **Shruti** | **Ratio** | **ET Offset (Cents)** | **Launchpad RGB** | **Color**    |
@@ -125,6 +127,28 @@ The ratios of the 22 shrutis used are the same as those defined and researched b
 | N1         | 15/8      | -11.7                 |                   |              |
 | N2         | 243/128   | 9.8                   | 80 0  10          | Magenta      |
 
+### Aiding in Interval Recognition
+
+Because of the 8 x 8 grid, there are several prominent intervals that can be spotted visually. Not that horizontal notes wrap across to the next row.
+
+| **Direction** | **Note Color**          | **Interval**                                       | **Ratio** |
+| ------------- | ----------------------- | -------------------------------------------------- | --------- |
+| ↖️             | color <-> non-color     | Just major third                                   | 5/4       |
+| ↙️             | like <-> like           | Descending perfect fourth (inverted perfect fifth) | 2/3       |
+| ↗️             | like <-> like           | Perfect fourth                                     | 4/3       |
+| ↔️             | color <-> color         | Poorna shruti (Pythagorean limma)                  | 256/243   |
+| ↔️             | color <-> non-color     | Praman shruti (Syntonic comma)                     | 81/80     |
+| ↔️             | non-color <-> non-color | Nyuna shruti (diatonic semitone)                   | 25/24     |
+
+The last three are particularly noteworthy in that they are the building blocks for all 22 shrutis. By noting the number of colored and uncolored notes are present between two shrutis, analogies for transpositions (murchanas) can be better understood. 
+
+For example:
+
+* R2 is to P as P is to S: a perfect fourth below.
+* D2 is to P as R2 is to S: horizontal interval of two colored notes and two uncolored notes!
+* D1 is a perfect fourth above G1 but is also a major third from M1. If both are in the raga, D1 will be particularly stable.
+* Given the previous two observations, D2 is related to Pancham whereas D1 is related to Madhyam!
+
 ## Build Requirements
 
 This would be if you want to start from scratch and/or support new tunings.
@@ -134,6 +158,7 @@ This would be if you want to start from scratch and/or support new tunings.
 * [Scala by Manuel Op de Coul](http://www.huygens-fokker.org/scala/index.html) (not the language) for generating Kontakt Script files
   * I suppose these can be done by hand as well but 🤷🏾‍♂️
   * Included `bundle-scala.sh` uses Wine to bundle a runnable App! (Mac instructions on website badly out of date.)
+  * Otherwise, could run Scala on Windows/Linux and copy over the files.
 * Kontakt 5 or [Kontakt 6](https://www.native-instruments.com/en/products/komplete/samplers/kontakt-6/) in order to access the instrument editor (wrench icon)
 
   - Tested with Kontakt 5.8.1
@@ -143,7 +168,8 @@ This would be if you want to start from scratch and/or support new tunings.
 
 ## Remarks
 
-* First attempted the Discovery Series tanpura for the playable tanpura as well. However the playable MIDI range 48-84 is enforced _before_ the Kontakt remapping script and does not seem to be able to be turned off even with the Script Editor. In a way, the Kontakt Factory Library tanpura offers a less twangy and more consistent sound suitable for a playable swar mandal instrument.
+* I initially attempted the Discovery Series tanpura for the playable tanpura as well. However its playable MIDI range 48-84 is enforced _before_ the Kontakt remapping script takes effect, and this feature does not seem to be able to be turned off even by disabling the articulation script in the Kontakt script editor. In a way, the Kontakt Factory Library tanpura offers a less twangy and suprisingly consistent sound suitable for a playable swar mandal instrument.
+* Velocities of notes can be adjusted by the `velocities.txt` template and re-running the `set-key.sh` script.
 
 
 ## Additional Reading
