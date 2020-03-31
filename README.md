@@ -14,7 +14,7 @@ Using a Novation Launchpad Pro to practice the 22 shrutis of Indian classical mu
     + [Creators](#creators)
   * [Crash Course on 22 Shrutis](#crash-course-on-22-shrutis)
   * [Audio Demos in Ragas](#audio-demos-in-ragas)
-  * [Hardware/Software Prerequisites](#hardware-software-prerequisites)
+  * [Hardware/Software Prerequisites](#hardwaresoftware-prerequisites)
   * [How to Use](#how-to-use)
   * [Shruti Colors](#shruti-colors)
     + [Definition](#definition)
