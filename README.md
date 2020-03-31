@@ -27,7 +27,7 @@ The demos are saved inside the `docs/` folder, but for GitHub.com and mobile con
 * Bheempalasi
   *  in Madhyam tuning
   * <u>**n1**</u> S **g1** M1 P **n1** S' | S' n1 **D1** P M1 **g1** **R1** S 
-  * would give **R1** extra bolding if I could!)
+  * would give **R1** extra bolding if I could!
 
 * Bhairavi
   * S **r2** **g2** **M2** P **d2** **n2** S' | S' **n2** **d2** P **M2** **g2** **r2** S
