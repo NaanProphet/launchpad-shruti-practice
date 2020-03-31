@@ -244,13 +244,13 @@ Starting on Shadaj (the white color), moving ↙️ yields the Pancham branch (a
 
 #### Perfect Fifths / Pancham branch - colored notes
 
-| C    | G    | D    | A    | E    | B    | F#   |
+| C    | G    | D    | A    | E    | B    | F♯   |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | S    | P    | R2   | D2   | G2   | N2   | m2   |
 
 #### Perfect Fourth / Madhyam branch - colored notes
 
-| C    | F    | Bb   | Eb   | Ab   | Db   |
+| C    | F    | B♭   | E♭   | A♭   | D♭   |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | S    | M1   | n1   | g1   | d1   | r1   |
 
