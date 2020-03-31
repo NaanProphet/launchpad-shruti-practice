@@ -252,7 +252,7 @@ Starting on Shadaj (the white color), moving ↙️ yields the Pancham branch (a
 
 #### The Break
 
-Where the colors stop is of fascinating interest. It visually represents where the eventual tail of the other branch wedges itself into the current branch. This is a result of the enharmonic equivalence of Shadaj (C) and Pancham (G) by +/- 2 cents.
+Where the colors stop is of fascinating interest. It visually represents where the eventual tail of the other branch wedges itself into the current branch. This is a result of the enharmonic equivalence of Shadaj (C) and Pancham (G) by +/- 2.0 cents.
 
 * Ebb (R1) wedges itself above C# (r2)
 * E# (M2) wedges itself underneath Gb (m1)
