@@ -31,11 +31,11 @@ Using a Novation Launchpad Pro to practice the 22 shrutis of Indian classical mu
 
 Hearing is believing! Quick 15 second demos of various ragas encompassing 16 of the 22 shrutis.
 
-Each demo features the arohi (ascending scale) and avarohi (descending scale), and concludes with a faster swar mandal-like descending flourish that really brings out the combined, blending consonance aka mood (bhava) of the raga.
+Each demo features the arohi (ascending scale), avarohi (descending scale), and concludes with a faster swar mandal-like descending flourish that really brings out the combined, blending consonance aka mood (bhava) of the raga.
 
 Particularly interesting notes to listen for are indicated in bold.
 
-The demos are saved inside the `docs/` folder, but for GitHub.com and mobile convenience here is a Soundcloud playlist as well.
+The MP3s are saved inside the `docs/` folder, but for GitHub.com and mobile convenience here is a Soundcloud playlist as well.
 
 [![](docs/soundcloud-playlist.png)](https://soundcloud.com/krimb1/sets/launchpad-shruti-practice-demos/s-R2feWIr0MIf)
 
