@@ -72,7 +72,7 @@ For the purpose of how and why these 22 notes are used, here are the most salien
   * Downward perfect fourths - based on Madhyam
 * Both Western and Indian Raga music have uniquely evolved to tradeoff opposites
   * Western music trades off temperments for Equal tempermaent [in the early 19th century](https://en.wikipedia.org/wiki/Equal_temperament#Baroque_era) for harmonic freedom and polyphony. This enables large orchestras with fixed pitch instruments, jazz and atonality.
-  * Raga music exclusively explores the subtleties of these temperaments by trading away polyphony. Philosophically, it mirrors the idea there is only one. The moods (bhavas) of these temperaments seek harmony with nature (rather than other voices), as Ragas are associated with times of day. This places special importance on variable pitch instruments (like voice and sitar) and creates harmony only within one's own melodic reverb.
+  * Raga music exclusively explores the subtleties of these temperaments by trading away polyphony. Philosophically, it mirrors the idea there is only one. The moods (bhavas) of these temperaments seek harmony with nature (rather than other voices), as Ragas are associated with times of day. This places special importance on variable pitch instruments (like voice and sitar) and creates harmony only within one's own melodic reverb and the tanpura.
 * Today's world has the great opportunity to listen to, reflect upon and respect these two unique, highly-evolved musical traditions—recognizing they are but siblings of the same root.
 
 ## Audio Demos in Ragas
