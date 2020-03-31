@@ -4,6 +4,29 @@ Using a Novation Launchpad Pro to practice the 22 shrutis of Indian classical mu
 
 ![Picture of the Novation Launchpad Pro with 22 shrutis colors](docs/launchpad-pic.jpg)
 
+## Who Might Use This
+
+### Students
+
+* Ear training - what do the different shrutis sound like? Am I able to notice a difference today? With practice, is my ear improving?
+* Exploration - what does a raga sound like with its correct shrutis? What makes it correct? What does it sound like if I use the other shrutis? Can I tell the difference at very soft volumes?
+* Vocal training - sing first and verify intonation after by using the Launchpad. What are my tendencies? Am I sharp or flat today?
+* Transcription - try out different grace notes (kan swaras). Which ones sound like the song?
+
+### Teachers
+
+* Visualize - music learning can be both an auditory as well as visual!  How large are the intervals? Which groups of notes (angs) are the same between ragas? What patterns do they make?
+* Explain - compare and contrast the shrutis used by different ragas. What makes this one unique? What gives it its character (bhava)?
+* Reveal - underlying harmonic relationships among shrutis. Which notes are related by perfect fifths and major thirds?
+* Inuit - tonal centers in ragas (vadi/samvadi swaras). Which notes anchor the others?
+
+### Creators
+
+* Swar mandal - the Launchpad makes a fantastic, well-tuned swar mandal!
+* Extend - apply the same tuning to any electronic instrument of your choosing!
+
+
+
 ## Audio Demos in Ragas
 
 Hearing is believing! Quick 15 second demos of various ragas encompassing 16 of the 22 shrutis.
