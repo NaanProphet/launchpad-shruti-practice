@@ -16,50 +16,38 @@ Particularly interesting notes to listen for are indicated in bold.
 
 S R2 **G1** P **D1** S' | S' **D1** P **G1** R2 S
 
-<audio controls>
-  <source src="docs/demo-bhoopali.mp3" type="audio/mpeg">
-  Your browser does not support the audio tag.
-</audio>
+<iframe width="100%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/787249084%3Fsecret_token%3Ds-qjaBZFcWRqr&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+
 **Shivranjani** 
 
 S R2 **g2** P **D2** S' | S' **D2** P **g2** R2 S
 
-<audio controls>
-  <source src="docs/demo-shivaranjani.mp3" type="audio/mpeg">
-  Your browser does not support the audio tag.
-</audio>
+<iframe width="100%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/787249075%3Fsecret_token%3Ds-gWia1w5Q1Oi&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+
 **Yaman** 
 
 **N1** R2 **G1** **m1** **D2** **N1** S' | S' **N1** **D2** P **m1** **G1** R2 S
 
-<audio controls>
-  <source src="docs/demo-yaman.mp3" type="audio/mpeg">
-  Your browser does not support the audio tag.
-</audio>
+<iframe width="100%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/787249072%3Fsecret_token%3Ds-EfY5qlr6UBp&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+
 **Desh** 
 
 S R2 M1 P **N1** S' | S' **n1** **D1** P M1 **G1** R2 S
 
-<audio controls>
-  <source src="docs/demo-desh.mp3" type="audio/mpeg">
-  Your browser does not support the audio tag.
-</audio>
+<iframe width="100%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/787249069%3Fsecret_token%3Ds-a9ih4OL2zck&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+
 **Bheempalasi** in Madhyam tuning (would give **R1** extra bolding if I could!)
 
 <u>**n1**</u> S **g1** M1 P **n1** S' | S' n1 **D1** P M1 **g1** **R1** S 
 
-<audio controls>
-  <source src="docs/demo-bheempalsi.mp3" type="audio/mpeg">
-  Your browser does not support the audio tag.
-</audio>
+<iframe width="100%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/787249066%3Fsecret_token%3Ds-szl5lvxJRJC&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+
 **Bhairavi** (M2 and n2 are especially bold here!)
 
 S **r2** **g2** **M2** P **d2** **n2** S' | S' **n2** **d2** P **M2** **g2** **r2** S
 
-<audio controls>
-  <source src="docs/demo-bhairavi.mp3" type="audio/mpeg">
-  Your browser does not support the audio tag.
-</audio>
+<iframe width="100%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/787249057%3Fsecret_token%3Ds-n74LIeBAris&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+
 More about the tuning in the [Shruti](#shruti-colors) section.
 
 ## Prerequisites
