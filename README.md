@@ -60,7 +60,7 @@ For the purpose of how and why these 22 notes are used, here are the most salien
 
 * There are 12 chromatic notes in an octave, just like Western music
 * The 22 shrutis are a way of tempering these 12 chromatic notes based on Raga
-  * Enharmonic notes such as G# and Ab are tuned differently
+  * Enharmonic notes such as G♯ and A♭ are tuned differently
 * The 22 shrutis are derived from the 12 chromatic notes by keeping C and G (Shadaj and Pancham) fixed and splitting the remaining 10 notes into two <br />![piano-keys-with-c-and-g-fixed](docs/piano-keys.png)
   * 2 + (10 x 2) = 22
   * There is no Raga that contains both pairs of enharmonic notes
@@ -258,20 +258,20 @@ Starting on Shadaj (the white color), moving ↙️ yields the Pancham branch (a
 
 Where the colors stop is of fascinating interest. It visually represents where the eventual tail of the other branch wedges itself into the current branch. This is a result of the enharmonic equivalence of Shadaj (C) and Pancham (G) by +/- 2.0 cents.
 
-* Ebb (R1) wedges itself above C# (r2)
-* E# (M2) wedges itself underneath Gb (m1)
+* E𝄫 (R1) wedges itself above C♯ (r2)
+* E♯ (M2) wedges itself underneath G♭ (m1)
 
 Instead we shift horizontally by one and continue the progression where the ratios continue to hold between uncolored notes.
 
 #### Perfect Fifths / Pancham branch - uncolored notes
 
-| C#   | G#   | D#   | A#   | E#   | B#   |
+| C♯   | G♯   | D♯   | A♯   | E♯   | B♯   |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | r2   | d2   | g2   | n2   | M2   | = C  |
 
 #### Perfect Fourth / Madhyam branch - uncolored notes
 
-| Gb   | Cb   | Fb   | Bbb  | Ebb  | Abb  |
+| G♭   | C♭   | F♭   | B𝄫   | E𝄫   | A𝄫   |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | m1   | N1   | G1   | D1   | R1   | = G  |
 
