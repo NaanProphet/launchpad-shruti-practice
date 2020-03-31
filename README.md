@@ -87,7 +87,7 @@ Each demo features the arohi (ascending scale), avarohi (descending scale), and 
 
 Particularly interesting notes to listen for are indicated in bold.
 
-The MP3s are saved inside the `docs/` folder, but for GitHub.com and mobile convenience here is a Soundcloud playlist as well.
+The MP3s are saved inside the `docs/` folder, but for general (mobile) convenience the same is uploaded as a Soundcloud playlist.
 
 [![](docs/soundcloud-playlist.png)](https://soundcloud.com/krimb1/sets/launchpad-shruti-practice-demos/s-R2feWIr0MIf)
 
