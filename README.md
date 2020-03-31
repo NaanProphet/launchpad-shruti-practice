@@ -14,7 +14,7 @@ Using a Novation Launchpad Pro to practice the 22 shrutis of Indian classical mu
     + [Creators](#creators)
   * [Crash Course on 22 Shrutis](#crash-course-on-22-shrutis)
   * [Audio Demos in Ragas](#audio-demos-in-ragas)
-  * [Prerequisites](#prerequisites)
+  * [Hardware/Software Prerequisites](#hardware-software-prerequisites)
   * [How to Use](#how-to-use)
   * [Shruti Colors](#shruti-colors)
     + [Definition](#definition)
@@ -105,7 +105,7 @@ The MP3s are saved inside the `docs/` folder, but for GitHub.com and mobile conv
 
 More about the tuning in the [Shruti](#shruti-colors) section.
 
-## Prerequisites
+## Hardware/Software Prerequisites
 
 * Launchpad Pro
   - Only Pro supports Programmer aka custom MIDI mode and RGB colors
