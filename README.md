@@ -12,11 +12,10 @@ Each demo features the arohi (ascending scale) and avarohi (descending scale), a
 
 Particularly interesting notes to listen for are indicated in bold.
 
-**Bhoopali** 
+**[Bhoopali](/docs/demo-bhoopali.mp3)** 
 
 S R2 **G1** P **D1** S' | S' **D1** P **G1** R2 S
 
-<iframe width="100%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/787249084%3Fsecret_token%3Ds-qjaBZFcWRqr&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
 **Shivranjani** 
 
