@@ -138,7 +138,7 @@ See [Native Instruments Komplete Version Comparison](https://docs.google.com/spr
 
    1. Set the `Tune` parameter to the number of half steps in the top, playable instrument.
    2. Set the `Root` key in the second background tanpura instrument.
-   3. Press the ▶️ icon to start the background tanpura. <br /> ![Setting the scale/key root for the tanpuras](/Users/Krish/Documents/GitHub/launchpad-shruti-practice/docs/kontakt-adjust-root.gif)
+   3. Press the ▶️ icon to start the background tanpura. <br /> ![Setting the scale/key root for the tanpuras](docs/kontakt-adjust-root.gif)
    4. To adjust tuning of Concert A (default 440Hz), open the `Master` pane and adjust the `Master Tune` parameter as needed. <br /> ![Adjusting the value of A440 Hz globally](docs/kontakt-adjust-a440.gif)
 
 6. Save your settings to a new file by clicking `Load/Save` (floppy disk icon) > `Save Multi as...`<br /> ![Saving settings to a new file](docs/kontakt-saving-settings.gif)
