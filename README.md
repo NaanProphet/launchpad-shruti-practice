@@ -70,7 +70,7 @@ For the purpose of how and why these 22 notes are used, here are the most salien
   * The white notes are shuddha (without accidentals)
 * There are two branches of enharmonic notes
   * Upward perfect fifths - based on Pancham
-  * Downward perfect fourths - based on Madhyam
+  * Downward perfect fifths (aka upward perfect fourths) - based on Madhyam
 
 ### Tradeoffs and Appreciation
 Both Western and Indian Raga music have uniquely evolved to tradeoff opposites.
