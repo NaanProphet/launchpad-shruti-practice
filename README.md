@@ -4,6 +4,33 @@ Using a Novation Launchpad Pro to practice the 22 shrutis of Indian classical mu
 
 ![Picture of the Novation Launchpad Pro with 22 shrutis colors](docs/launchpad-pic.jpg)
 
+
+
+## Table of Contents
+
+  * [Who Might Use This](#who-might-use-this)
+    + [Students](#students)
+    + [Teachers](#teachers)
+    + [Creators](#creators)
+  * [Crash Course on 22 Shrutis](#crash-course-on-22-shrutis)
+  * [Audio Demos in Ragas](#audio-demos-in-ragas)
+  * [Prerequisites](#prerequisites)
+  * [How to Use](#how-to-use)
+  * [Shruti Colors](#shruti-colors)
+    + [Definition](#definition)
+    + [Aiding in Interval Recognition](#aiding-in-interval-recognition)
+  * [Build Requirements](#build-requirements)
+  * [Exporting Kontakt Scripts with Scala Cheatsheet](#exporting-kontakt-scripts-with-scala-cheatsheet)
+  * [Remarks](#remarks)
+  * [Enharmonic Note Derivation](#enharmonic-note-derivation)
+      - [Perfect Fifths / Pancham branch - colored notes](#perfect-fifths---pancham-branch---colored-notes)
+      - [Perfect Fourth / Madhyam branch - colored notes](#perfect-fourth---madhyam-branch---colored-notes)
+      - [Perfect Fifths / Pancham branch - uncolored notes](#perfect-fifths---pancham-branch---uncolored-notes)
+      - [Perfect Fourth / Madhyam branch - uncolored notes](#perfect-fourth---madhyam-branch---uncolored-notes)
+  * [Additional Reading](#additional-reading)
+
+
+
 ## Who Might Use This
 
 ### Students
@@ -235,7 +262,7 @@ Instead we shift horizontally by one and continue the progression where the rati
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | r2   | d2   | g2   | n2   | M2   | = C  |
 
-##### Perfect Fourth / Madhyam branch - uncolored notes
+#### Perfect Fourth / Madhyam branch - uncolored notes
 
 | Gb   | Cb   | Fb   | Bbb  | Ebb  | Abb  |
 | ---- | ---- | ---- | ---- | ---- | ---- |
