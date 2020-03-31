@@ -67,7 +67,7 @@ For the purpose of how and why these 22 notes are used, here are the most salien
   * Thus there are not 22 chromatic notes
 * For notation purposes, the black notes are given lowercase letters (r, g, m, d, n) whereas white keys have uppercase letters (S R G M P D N)
   * The black notes are komal (flat) and tivra (sharp) aka modified (vikrt)
-  * The white notes are shudda (without accidentals)
+  * The white notes are shuddha (without accidentals)
 * There are two branches of enharmonic notes
   * Upward perfect fifths - based on Pancham
   * Downward perfect fourths - based on Madhyam
