@@ -53,8 +53,7 @@ The MP3s are saved inside the `docs/` folder, but for GitHub.com and mobile conv
   * would give **R1** extra bolding if I could!
 
 * Bhairavi
-  * S **r2** **g2** **M2** P **d2** **n2** S' | S' **n2** **d2** P **M2** **g2** **r2** S
-  * M2 and n2 are especially bold here!
+  * S **r2** g2 **M2** P d2 **n2** S' | S' **n2** d2 P **M2** g2 **r2** S
 
 
 More about the tuning in the [Shruti](#shruti-colors) section.
