@@ -13,6 +13,7 @@ Using a Novation Launchpad Pro to practice the 22 shrutis of Indian classical mu
     + [Teachers](#teachers)
     + [Creators](#creators)
   * [Crash Course on 22 Shrutis](#crash-course-on-22-shrutis)
+    + [Tradeoffs and Appreciation](#tradeoffs-and-appreciation)
   * [Audio Demos in Ragas](#audio-demos-in-ragas)
   * [Hardware/Software Prerequisites](#hardwaresoftware-prerequisites)
   * [How to Use](#how-to-use)
@@ -70,10 +71,12 @@ For the purpose of how and why these 22 notes are used, here are the most salien
 * There are two branches of enharmonic notes
   * Upward perfect fifths - based on Pancham
   * Downward perfect fourths - based on Madhyam
-* Both Western and Indian Raga music have uniquely evolved to tradeoff opposites
+
+### Tradeoffs and Appreciation
+Both Western and Indian Raga music have uniquely evolved to tradeoff opposites.
   * Western music trades off temperments for Equal tempermaent [in the early 19th century](https://en.wikipedia.org/wiki/Equal_temperament#Baroque_era) for harmonic freedom and polyphony. This enables large orchestras with fixed pitch instruments, jazz and atonality.
   * Raga music exclusively explores the subtleties of these temperaments by trading away polyphony. Philosophically, it mirrors the idea there is only one. The moods (bhavas) of these temperaments seek harmony with nature (rather than other voices), as Ragas are associated with times of day. This places special importance on variable pitch instruments (like voice and sitar) and creates harmony only within one's own melodic reverb and the tanpura.
-* Today's world has the great opportunity to listen to, reflect upon and respect these two unique, highly-evolved musical traditions—recognizing they are but siblings of the same root.
+Today's world has the great opportunity to listen to, reflect upon and respect these two unique, highly-evolved musical traditions—recognizing they are but siblings of the same root.
 
 ## Audio Demos in Ragas
 
