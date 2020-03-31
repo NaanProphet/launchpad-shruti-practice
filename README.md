@@ -4,7 +4,7 @@ Using a Novation Launchpad Pro to practice the 22 shrutis of Indian classical mu
 
 ![Picture of the Novation Launchpad Pro with 22 shrutis colors](docs/launchpad-pic.jpg)
 
-## Demos
+## Audio Demos in Ragas
 
 Hearing is believing! Quick 15 second demos of various ragas encompassing 16 of the 22 shrutis.
 
@@ -12,40 +12,27 @@ Each demo features the arohi (ascending scale) and avarohi (descending scale), a
 
 Particularly interesting notes to listen for are indicated in bold.
 
-**[Bhoopali](/docs/demo-bhoopali.mp3)** 
+The demos are saved inside the `docs/` folder, but for GitHub.com and mobile convenience here is a Soundcloud playlist as well.
 
-S R2 **G1** P **D1** S' | S' **D1** P **G1** R2 S
+[![](docs/soundcloud-playlist.png)](https://soundcloud.com/krimb1/sets/launchpad-shruti-practice-demos/s-R2feWIr0MIf)
 
+* Bhoopali
+  * S R2 **G1** P **D1** S' | S' **D1** P **G1** R2 S
+* Shivranjani
+  * S R2 **g2** P **D2** S' | S' **D2** P **g2** R2 S
+* Yaman 
+  * **N1** R2 **G1** **m1** **D2** **N1** S' | S' **N1** **D2** P **m1** **G1** R2 S
+* Desh
+  * S R2 M1 P **N1** S' | S' **n1** **D1** P M1 **G1** R2 S
+* Bheempalasi
+  *  in Madhyam tuning
+  * <u>**n1**</u> S **g1** M1 P **n1** S' | S' n1 **D1** P M1 **g1** **R1** S 
+  * would give **R1** extra bolding if I could!)
 
-**Shivranjani** 
+* Bhairavi
+  * S **r2** **g2** **M2** P **d2** **n2** S' | S' **n2** **d2** P **M2** **g2** **r2** S
+  * M2 and n2 are especially bold here!
 
-S R2 **g2** P **D2** S' | S' **D2** P **g2** R2 S
-
-<iframe width="100%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/787249075%3Fsecret_token%3Ds-gWia1w5Q1Oi&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-
-**Yaman** 
-
-**N1** R2 **G1** **m1** **D2** **N1** S' | S' **N1** **D2** P **m1** **G1** R2 S
-
-<iframe width="100%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/787249072%3Fsecret_token%3Ds-EfY5qlr6UBp&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-
-**Desh** 
-
-S R2 M1 P **N1** S' | S' **n1** **D1** P M1 **G1** R2 S
-
-<iframe width="100%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/787249069%3Fsecret_token%3Ds-a9ih4OL2zck&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-
-**Bheempalasi** in Madhyam tuning (would give **R1** extra bolding if I could!)
-
-<u>**n1**</u> S **g1** M1 P **n1** S' | S' n1 **D1** P M1 **g1** **R1** S 
-
-<iframe width="100%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/787249066%3Fsecret_token%3Ds-szl5lvxJRJC&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-
-**Bhairavi** (M2 and n2 are especially bold here!)
-
-S **r2** **g2** **M2** P **d2** **n2** S' | S' **n2** **d2** P **M2** **g2** **r2** S
-
-<iframe width="100%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/787249057%3Fsecret_token%3Ds-n74LIeBAris&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
 More about the tuning in the [Shruti](#shruti-colors) section.
 
