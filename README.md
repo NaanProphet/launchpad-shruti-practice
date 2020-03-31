@@ -15,7 +15,7 @@ Using a Novation Launchpad Pro to practice the 22 shrutis of Indian classical mu
 
 ### Teachers
 
-* Visualize - music learning can be both an auditory as well as visual!  How large are the intervals? Which groups of notes (angs) are the same between ragas? What patterns do they make?
+* Visualize - music learning can be both auditory as well as visual!  How large are the intervals? Which groups of notes (angs) are the same between ragas? What patterns do they make?
 * Explain - compare and contrast the shrutis used by different ragas. What makes this one unique? What gives it its character (bhava)?
 * Reveal - underlying harmonic relationships among shrutis. Which notes are related by perfect fifths and major thirds?
 * Inuit - tonal centers in ragas (vadi/samvadi swaras). Which notes anchor the others?
