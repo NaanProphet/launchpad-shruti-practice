@@ -21,7 +21,7 @@ Using a Novation Launchpad Pro to practice the 22 shrutis of Indian classical mu
     + [Aiding in Interval Recognition](#aiding-in-interval-recognition)
   * [Build Requirements](#build-requirements)
   * [Exporting Kontakt Scripts with Scala Cheatsheet](#exporting-kontakt-scripts-with-scala-cheatsheet)
-  * [Remarks](#remarks)
+  * [Remarks and MIDI Programming](#remarks-and-midi-programming)
   * [Enharmonic Note Derivation](#enharmonic-note-derivation)
       - [Perfect Fifths / Pancham branch - colored notes](#perfect-fifths---pancham-branch---colored-notes)
       - [Perfect Fourth / Madhyam branch - colored notes](#perfect-fourth---madhyam-branch---colored-notes)
@@ -227,10 +227,10 @@ All of this is covered in the Warren Burt's original article (see below) but thi
 * Enter a filename and a description > `OK`
 * Exit Scala
 
-## Remarks
+## Remarks and MIDI Programming
 
 * I initially attempted the Discovery Series tanpura for the playable tanpura as well. However its playable MIDI range 48-84 is enforced _before_ the Kontakt remapping script takes effect, and this feature does not seem to be able to be turned off even by disabling the articulation script in the Kontakt script editor. A dump of the stock scripts is saved [here](https://github.com/NaanProphet/launchpad-shruti-practice/tree/dev/native%20instrument%20tanpura%20scripts) for reference.
-* Velocities of notes can be adjusted by the `velocities.txt` template and re-running the `set-key.sh` script.
+* If notes sound too soft or too loud compared to others, velocities of notes can be adjusted by the `velocities.txt` template and re-running the `set-key.sh` script.
 
 ## Enharmonic Note Derivation
 
