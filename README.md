@@ -16,14 +16,14 @@ Using a Novation Launchpad Pro to practice the 22 shrutis of Indian classical mu
 ### Teachers
 
 * Visualize - music learning can be both auditory as well as visual!  How large are the intervals? Which groups of notes (angs) are the same between ragas? What patterns do they make?
-* Explain - compare and contrast the shrutis used by different ragas. What makes this one unique? What gives it its character (bhava)?
+* Explain - compare and contrast the shrutis used by different ragas. What is common to ragas the student has previously studied? What makes this one unique? What gives it its character (bhava)?
 * Reveal - underlying harmonic relationships among shrutis. Which notes are related by perfect fifths and major thirds?
 * Inuit - tonal centers in ragas (vadi/samvadi swaras). Which notes anchor the others?
 
 ### Creators
 
-* Swar mandal - the Launchpad makes a fantastic, well-tuned swar mandal!
-* Extend - apply the same tuning to any electronic instrument of your choosing!
+* Swar mandal - the Launchpad makes a nice, well-tuned swar mandal!
+* Extend - apply the same tuning to any MIDI instrument of your choice
 
 
 
