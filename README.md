@@ -180,7 +180,7 @@ The ratios of the 22 shrutis used are the same as those defined and researched b
 
 ### Aiding in Interval Recognition
 
-Because of the 8 x 8 grid, there are several prominent intervals that can be spotted visually. Not that horizontal notes wrap across to the next row.
+Because of the 8 x 8 grid, there are several prominent intervals that can be spotted visually. Note that horizontal notes wrap across to the next row.
 
 | **Direction** | **Note Color**          | **Interval**                                       | **Ratio** |
 | ------------- | ----------------------- | -------------------------------------------------- | --------- |
