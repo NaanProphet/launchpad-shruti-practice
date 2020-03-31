@@ -9,29 +9,49 @@ Using a Novation Launchpad Pro to practice the 22 shrutis of Indian classical mu
 ### Students
 
 * Ear training - what do the different shrutis sound like? Am I able to notice a difference today? With practice, is my ear improving?
-* Exploration - what does a raga sound like with its correct shrutis? What makes it correct? What does it sound like if I use the other shrutis? Can I tell the difference at very soft volumes?
+* Exploration - what does a Raga sound like with its correct shrutis? What makes it correct? What does it sound like if I use the other shrutis? Can I tell the difference at very soft volumes?
 * Vocal training - sing first and verify intonation after by using the Launchpad. What are my tendencies? Am I sharp or flat today?
 * Transcription - try out different grace notes (kan swaras). Which ones sound like the song?
 
 ### Teachers
 
-* Visualize - music learning can be both auditory as well as visual!  How large are the intervals? Which groups of notes (angs) are the same between ragas? What patterns do they make?
-* Explain - compare and contrast the shrutis used by different ragas. What is common to ragas the student has previously studied? What makes this one unique? What gives it its character (bhava)?
+* Visualize - music learning can be both auditory as well as visual!  How large are the intervals? Which groups of notes (angs) are the same between Ragas? What patterns do they make?
+* Explain - compare and contrast the shrutis used by different Ragas. What is common to Ragas the student has previously studied? What makes this one unique? What gives it its character (bhava)?
 * Reveal - underlying harmonic relationships among shrutis. Which notes are related by perfect fifths and major thirds?
-* Inuit - tonal centers in ragas (vadi/samvadi swaras). Which notes anchor the others?
+* Inuit - tonal centers in Ragas (vadi/samvadi swaras). Which notes anchor the others?
 
 ### Creators
 
 * Swar mandal - the Launchpad makes a nice, well-tuned swar mandal!
 * Extend - apply the same tuning to any MIDI instrument of your choice
 
+## Crash Course on 22 Shrutis
 
+For the purpose of how and why these 22 notes are used, here are the most salient ideas. The key of C is assumed in all examples.
+
+* There are 12 chromatic notes in an octave, just like Western music
+* The 22 shrutis are a way of tempering these 12 chromatic notes based on Raga
+  * Enharmonic notes such as G# and Ab are tuned differently
+* The 22 shrutis are derived from the 12 chromatic notes by keeping C and G (Shadaj and Pancham) fixed and splitting the remaining 10 notes into two ![piano-keys-with-c-and-g-fixed](docs/piano-keys.png)
+  * 2 + (10 x 2) = 22
+  * There is no Raga that contains both pairs of enharmonic notes
+  * Thus there are not 22 chromatic notes
+* For notation purposes, the black notes are given lowercase letters (r, g, m, d, n) whereas white keys have uppercase letters (S R G M P D N)
+  * The black notes are komal (flat) and tivra (sharp) aka modified (vikrt)
+  * The white notes are shudda (without accidentals)
+* There are two branches of enharmonic notes
+  * Upward perfect fifths - based on Pancham
+  * Downward perfect fourths - based on Madhyam
+* Both Western and Indian Raga music have uniquely evolved to tradeoff opposites
+  * Western music trades off temperments for Equal tempermaent [in the early 19th century](https://en.wikipedia.org/wiki/Equal_temperament#Baroque_era) for harmonic freedom and polyphony. This enables large orchestras with fixed pitch instruments, jazz and atonality.
+  * Raga music exclusively explores the subtleties and moods of these temperaments by trading away polyphony. Philosophically, it mirrors the idea there is only one. This places special importance on variable pitch instruments (like voice and sitar) and creates harmony only within one's own melodic reverb. 
+* Today's world has the great opportunity to listen to, reflect upon and respect these two unique, highly-evolved musical traditions—recognizing they are but siblings of the same root.
 
 ## Audio Demos in Ragas
 
-Hearing is believing! Quick 15 second demos of various ragas encompassing 16 of the 22 shrutis.
+Hearing is believing! Quick 15 second demos of various Ragas encompassing 16 of the 22 shrutis.
 
-Each demo features the arohi (ascending scale), avarohi (descending scale), and concludes with a faster swar mandal-like descending flourish that really brings out the combined, blending consonance aka mood (bhava) of the raga.
+Each demo features the arohi (ascending scale), avarohi (descending scale), and concludes with a faster swar mandal-like descending flourish that really brings out the combined, blending consonance aka mood (bhava) of the Raga.
 
 Particularly interesting notes to listen for are indicated in bold.
 
@@ -145,7 +165,7 @@ For example:
 
 * R2 is to P as P is to S: a perfect fourth below.
 * D2 is to P as R2 is to S: horizontal interval of two colored notes and two uncolored notes!
-* D1 is a perfect fourth above G1 but is also a major third from M1. If both are in the raga, D1 will be particularly stable.
+* D1 is a perfect fourth above G1 but is also a major third from M1. If both are in the Raga, D1 will be particularly stable.
 * Given the previous two observations, D2 is related to Pancham whereas D1 is related to Madhyam!
 
 ## Build Requirements
@@ -184,6 +204,42 @@ All of this is covered in the Warren Burt's original article (see below) but thi
 * I initially attempted the Discovery Series tanpura for the playable tanpura as well. However its playable MIDI range 48-84 is enforced _before_ the Kontakt remapping script takes effect, and this feature does not seem to be able to be turned off even by disabling the articulation script in the Kontakt script editor. In a way, the Kontakt Factory Library tanpura offers a less twangy and suprisingly consistent sound suitable for a playable swar mandal instrument.
 * Velocities of notes can be adjusted by the `velocities.txt` template and re-running the `set-key.sh` script.
 
+## Enharmonic Note Derivation
+
+As noted above in the [Crash Course](#crash-course-on-22-shrutis) section, the two branches of 10 notes are derived from upward perfect fifths (Pancham) and downard perfect fourths (Madhyam). These relationships can be visualized using the Launchpad's colors.
+
+Starting on Shadaj (the white color), moving ↙️ yields the Pancham branch (ang); moving ↗️ yields the Madhyam branch. The following tables maps these shrutis to their Western names assuming the key of C. Notice that all Pancham-derived notes are the higher frequency "2" variants, whereas all Madhyam-derived ones are lower "1" variants.
+
+#### Perfect Fifths / Pancham branch - colored notes
+
+| C    | G    | D    | A    | E    | B    | F#   |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| S    | P    | R2   | D2   | G2   | N2   | m2   |
+
+#### Perfect Fourth / Madhyam branch - colored notes
+
+| C    | F    | Bb   | Eb   | Ab   | Db   |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| S    | M1   | n1   | g1   | d1   | r1   |
+
+Where the colors stop is of fascinating interest. It visually represents where the eventual tail of the other branch wedges itself into the current branch. This is a result of the enharmonic equivalence of Shadaj (C) and Pancham (G) by +/- 2 cents.
+
+* Ebb (R1) wedges itself above C# (r2)
+* E# (M2) wedges itself underneath Gb (m1)
+
+Instead we shift horizontally by one and continue the progression where the ratios continue to hold between uncolored notes.
+
+#### Perfect Fifths / Pancham branch - uncolored notes
+
+| C#   | G#   | D#   | A#   | E#   | B#   |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| r2   | d2   | g2   | n2   | M2   | = C  |
+
+##### Perfect Fourth / Madhyam branch - uncolored notes
+
+| Gb   | Cb   | Fb   | Bbb  | Ebb  | Abb  |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| m1   | N1   | G1   | D1   | R1   | = G  |
 
 ## Additional Reading
 
