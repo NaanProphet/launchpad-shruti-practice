@@ -229,7 +229,7 @@ All of this is covered in the Warren Burt's original article (see below) but thi
 
 ## Remarks
 
-* I initially attempted the Discovery Series tanpura for the playable tanpura as well. However its playable MIDI range 48-84 is enforced _before_ the Kontakt remapping script takes effect, and this feature does not seem to be able to be turned off even by disabling the articulation script in the Kontakt script editor. A dump of the stock scripts is saved [here](./native instrument tanpura scripts/) for reference.
+* I initially attempted the Discovery Series tanpura for the playable tanpura as well. However its playable MIDI range 48-84 is enforced _before_ the Kontakt remapping script takes effect, and this feature does not seem to be able to be turned off even by disabling the articulation script in the Kontakt script editor. A dump of the stock scripts is saved [here](https://github.com/NaanProphet/launchpad-shruti-practice/tree/dev/native%20instrument%20tanpura%20scripts) for reference.
 * Velocities of notes can be adjusted by the `velocities.txt` template and re-running the `set-key.sh` script.
 
 ## Enharmonic Note Derivation
