@@ -83,7 +83,7 @@ Today's world has the great opportunity to listen to, reflect upon and respect t
 
 Hearing is believing! Quick 15 second demos of various Ragas encompassing 16 of the 22 shrutis.
 
-Each demo features the arohi (ascending scale), avarohi (descending scale), and concludes with a faster swar mandal-like descending flourish that really brings out the combined, blending consonance aka mood (bhava) of the Raga.
+Each demo features the arohi (ascending scale), avarohi (descending scale), and concludes with a faster swar mandal-like descending flourish that really brings out the combined, blended consonance aka mood (bhava) of the Raga.
 
 Particularly interesting notes to listen for are indicated in bold.
 
