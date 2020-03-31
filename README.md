@@ -25,6 +25,7 @@ Using a Novation Launchpad Pro to practice the 22 shrutis of Indian classical mu
   * [Enharmonic Note Derivation](#enharmonic-note-derivation)
       - [Perfect Fifths / Pancham branch - colored notes](#perfect-fifths---pancham-branch---colored-notes)
       - [Perfect Fourth / Madhyam branch - colored notes](#perfect-fourth---madhyam-branch---colored-notes)
+      - [The Break](#the-break)
       - [Perfect Fifths / Pancham branch - uncolored notes](#perfect-fifths---pancham-branch---uncolored-notes)
       - [Perfect Fourth / Madhyam branch - uncolored notes](#perfect-fourth---madhyam-branch---uncolored-notes)
   * [Additional Reading](#additional-reading)
@@ -235,7 +236,7 @@ All of this is covered in the Warren Burt's original article (see below) but thi
 
 As noted above in the [Crash Course](#crash-course-on-22-shrutis) section, the two branches of 10 notes are derived from upward perfect fifths (Pancham) and downard perfect fourths (Madhyam). These relationships can be visualized using the Launchpad's colors.
 
-Starting on Shadaj (the white color), moving ↙️ yields the Pancham branch (ang); moving ↗️ yields the Madhyam branch. The following tables maps these shrutis to their Western names assuming the key of C. Notice that all Pancham-derived notes are the higher frequency "2" variants, whereas all Madhyam-derived ones are lower "1" variants.
+Starting on Shadaj (the white color), moving ↙️ yields the Pancham branch (ang); moving ↗️ yields the Madhyam branch. The following tables map these shrutis to their Western names assuming the key of C. Notice that all Pancham-derived notes are the higher frequency "2" variants, whereas all Madhyam-derived ones are lower "1" variants. See [above](#definition) for their exact ratios.
 
 #### Perfect Fifths / Pancham branch - colored notes
 
@@ -248,6 +249,8 @@ Starting on Shadaj (the white color), moving ↙️ yields the Pancham branch (a
 | C    | F    | Bb   | Eb   | Ab   | Db   |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | S    | M1   | n1   | g1   | d1   | r1   |
+
+#### The Break
 
 Where the colors stop is of fascinating interest. It visually represents where the eventual tail of the other branch wedges itself into the current branch. This is a result of the enharmonic equivalence of Shadaj (C) and Pancham (G) by +/- 2 cents.
 
