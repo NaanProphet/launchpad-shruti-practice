@@ -59,7 +59,8 @@ For the purpose of how and why these 22 notes are used, here are the most salien
 * There are 12 chromatic notes in an octave, just like Western music
 * The 22 shrutis are a way of tempering these 12 chromatic notes based on Raga
   * Enharmonic notes such as G# and Ab are tuned differently
-* The 22 shrutis are derived from the 12 chromatic notes by keeping C and G (Shadaj and Pancham) fixed and splitting the remaining 10 notes into two ![piano-keys-with-c-and-g-fixed](docs/piano-keys.png)
+* The 22 shrutis are derived from the 12 chromatic notes by keeping C and G (Shadaj and Pancham) fixed and splitting the remaining 10 notes into two 
+![piano-keys-with-c-and-g-fixed](docs/piano-keys.png)
   * 2 + (10 x 2) = 22
   * There is no Raga that contains both pairs of enharmonic notes
   * Thus there are not 22 chromatic notes
