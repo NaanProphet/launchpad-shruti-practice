@@ -166,6 +166,20 @@ This would be if you want to start from scratch and/or support new tunings.
   * Can be installed with Homebrew: `brew install bash`
   * Used by the `set-key.sh` script
 
+## Exporting Kontakt Scripts with Scala Cheatsheet
+
+All of this is covered in the Warren Burt's original article (see below) but this a handy reference more for my benefit.
+
+* Launch Scala
+* Open `.scl` file with tuning (exported from Wilsonic or your own)
+* Open `Edit` > `Preferences` > `Synth`
+* Click the arrow to open the `Tuning model` dropdown (top of page)
+* Select `129: Native Instruments Kontakt 2, via script file.` > then `OK`
+* Open `File` > `Export synth tuning`
+* Choose a path (it can be tricky to find your Mac folder via Wine, start from `/`)
+* Enter a filename and a description > `OK`
+* Exit Scala
+
 ## Remarks
 
 * I initially attempted the Discovery Series tanpura for the playable tanpura as well. However its playable MIDI range 48-84 is enforced _before_ the Kontakt remapping script takes effect, and this feature does not seem to be able to be turned off even by disabling the articulation script in the Kontakt script editor. In a way, the Kontakt Factory Library tanpura offers a less twangy and suprisingly consistent sound suitable for a playable swar mandal instrument.
