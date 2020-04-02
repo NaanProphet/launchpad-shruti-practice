@@ -53,6 +53,7 @@ Using a Novation Launchpad Pro to practice the 22 shrutis of Indian classical mu
 
 * Swar mandal - the Launchpad makes a nice, well-tuned swar mandal!
 * Extend - apply the same tuning to any MIDI instrument of your choice
+* Harmonize intelligently - which notes in a Raga naturally form triads? Where can just intonation be used without breaking the Raga's nature (svabhava)?
 
 ## Crash Course on 22 Shrutis
 
