@@ -65,7 +65,7 @@ For the purpose of how and why these 22 notes are used, here are the most salien
 * The 22 shrutis are derived from the 12 chromatic notes by keeping C and G (Shadaj and Pancham) fixed and splitting the remaining 10 notes into two <br />![piano-keys-with-c-and-g-fixed](docs/piano-keys.png)
   * 2 + (10 x 2) = 22
   * There is no Raga that contains both pairs of enharmonic notes
-  * Thus there are not 22 chromatic notes
+  * Thus there is no 22 chromatic note scale
 * For notation purposes, the black notes are given lowercase letters (r, g, m, d, n) whereas white keys have uppercase letters (S R G M P D N)
   * The black notes are komal (flat) and tivra (sharp) aka modified (vikrt)
   * The white notes are shuddha (without accidentals)
