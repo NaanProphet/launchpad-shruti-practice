@@ -130,7 +130,7 @@ See [Native Instruments Komplete Version Comparison](https://docs.google.com/spr
 
 ## How to Use
 
-1. Connect the Launchpad Pro via USB and enter Programmer Mode. See the [Launchpad Pro User Guide](https://resource.novationmusic.com/support/product-downloads?product=Launchpad+Pro) for details.
+1. Connect the Launchpad Pro via USB and enter Programmer Mode by holding `Setup` and pressing the Orange button in the first row. See the [User Guide below](#additional-reading) for details.
 
 2. Open Terminal and run the background MIDI daemon: `sh start.sh`
 
@@ -142,8 +142,9 @@ See [Native Instruments Komplete Version Comparison](https://docs.google.com/spr
 
    1. Set the `Tune` parameter to the number of half steps in the top, playable instrument.
    2. Set the `Root` key in the second background tanpura instrument.
-   3. Press the ▶️ icon to start the background tanpura. <br /> ![Setting the scale/key root for the tanpuras](docs/kontakt-adjust-root.gif)
-   4. To adjust tuning of Concert A (default 440Hz), open the `Master` pane and adjust the `Master Tune` parameter as needed. <br /> ![Adjusting the value of A440 Hz globally](docs/kontakt-adjust-a440.gif)
+   3. To switch to Madhyam tuning, click Edit and select `4-1-1-1` from the dropdown. ![Switching to Madhyam tuning](docs/kontakt-switch-madhyam.gif)
+   4. Press the ▶️ icon to start the background tanpura. <br /> ![Setting the scale/key root for the tanpuras](docs/kontakt-adjust-root.gif)
+   5. To adjust tuning of Concert A (default 440Hz), open the `Master` pane and adjust the `Master Tune` parameter as needed. <br /> ![Adjusting the value of A440 Hz globally](docs/kontakt-adjust-a440.gif)
 
 6. Save your settings to a new file by clicking `Load/Save` (floppy disk icon) > `Save Multi as...`<br /> ![Saving settings to a new file](docs/kontakt-saving-settings.gif)
 
@@ -217,9 +218,9 @@ This would be if you want to start from scratch and/or support new tunings.
   * Can be installed with Homebrew: `brew install bash`
   * Used by the `set-key.sh` script
 
-## Exporting Kontakt Scripts with Scala Cheatsheet
+## Exporting Kontakt Scripts with Scala
 
-All of this is covered in the Warren Burt's original article (see below) but this a handy reference more for my benefit.
+All of this is covered in the Warren Burt's original article (see below) but this a cheatsheet more for my benefit.
 
 * Launch Scala
 * Open `.scl` file with tuning (exported from Wilsonic or your own)
@@ -233,8 +234,18 @@ All of this is covered in the Warren Burt's original article (see below) but thi
 
 ## Remarks and MIDI Programming
 
-* I initially attempted the Discovery Series tanpura for the playable tanpura as well. However its playable MIDI range 48-84 is enforced _before_ the Kontakt remapping script takes effect, and this feature does not seem to be able to be turned off even by disabling the articulation script in the Kontakt script editor. A dump of the stock scripts is saved [here](https://github.com/NaanProphet/launchpad-shruti-practice/tree/dev/native%20instrument%20tanpura%20scripts) for reference.
+* Scala tuning files always set MIDI 60 to Middle C. The rest of the notes are filled in around that. This means depending on the number of notes per octave, the starting note on MIDI 0 will be different. Here's a comparison of a 22-note and 17-note tuning scale as an example. ![Comparing Scala tuning file exports](docs/scala-export-middle-c.png)
+* In Programmer Mode, the Launchpad grid runs from MIDI 11-18, 21-28 ... to 81-88 (reference image from manual). ![Programmer layout MIDI values](docs/launchpad-midi-values.png)
+* The purpose of the MIDI routing script is map the Launchpad MIDI notes to the Scala script's MIDI values. The sequence is:
+    * User presses note on Launchpad
+    * Launchpad MIDI note (11-18 ... 81-88)
+    * Midimap daemon converts Launchpad notes to a continuous set of 64 standard MIDI notes
+    * Kontakt Script remaps standard MIDI note to actual MIDI scale note and adds pitch bending
+* To make a Kontakt instrument into a 22 Shruti instrument, first paste the Scala script in an empty tab in playable tanpura's Script Editor. You must have the paid version of Kontakt to see the wrench icon. ![Custom tuning in Konakt Script Editor](docs/kontakt-script-editor.gif)
+* Some instruments have playable MIDI ranges as specified by the Mapping Editor. To extend them, open the Mapping Editor and drag the 
+* I initially attempted the Discovery Series tanpura for the playable tanpura as well. However its playable MIDI range 48-84 is enforced _before_ the Kontakt remapping script takes effect. The restriction seems to apply even if the Kontakt articulation script is disabled. A dump of the stock scripts is saved [here](https://github.com/NaanProphet/launchpad-shruti-practice/tree/dev/native%20instrument%20tanpura%20scripts) for reference.
 * If notes sound too soft or too loud compared to others, velocities of notes can be adjusted by the `velocities.txt` template and re-running the `set-key.sh` script.
+* 
 
 ## Enharmonic Note Derivation
 
@@ -277,6 +288,7 @@ Instead we shift horizontally by one and continue the progression where the rati
 
 ## Additional Reading
 
+* [Launchpad Pro Downloads Page](https://resource.novationmusic.com/support/product-downloads?product=Launchpad+Pro) and [Programmer's Reference direct link](https://resource.novationmusic.com/sites/default/files/novation/downloads/10598/launchpad-pro-programmers-reference-guide_0.pdf)
 * [Microtuning in Kontakt 5 and 6](https://soundbytesmag.net/technique-microtuning-in-kontakt-5-and-6/) by Warren Burt, Jan. 2019.
 * [22shruti.com](http://22shruti.com) Dr. Vidyadhar Oke's website featuring articles, TEDx talks and demos. His playable Flash application is the original inspiration for this project.
 * [Wilsonic](https://apps.apple.com/us/app/wilsonic/id848852071) App for iOS. Great for exploring various tunings. Exports Scala tuning files.
